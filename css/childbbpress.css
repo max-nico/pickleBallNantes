@@ -113,14 +113,12 @@ max-width: 37%;
     background: #74151C;
     height: 95px;
     font-size: 36px;
+    margin:0;
+}
+.img_ico_forums,.img_ico_reponses{
+    width: 55%;
 }
 
-.iconsujets{
-
-}
-.iconresponse{
-    
-}
 .titlecount{
     font-size: 25px;
     text-align: center;

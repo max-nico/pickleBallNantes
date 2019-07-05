@@ -13,18 +13,24 @@
 
 <ul id="forums-list-<?php bbp_forum_id(); ?>" class="bbp-forums">
 <div class="headertabforum row col-md-12">
-		<div class="col-md-7 infotabf">FORUM</div>
-			<div class="col-md-1">  
-				<span class="">
-					<img src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_sujets.svg'; ?>" alt="icons sujets">
+		<div class="col-md-7 infotabf">
+				FORUM
+		</div>
+		<div class="col-md-1">  
+				<span class="ico_forums">
+					<img class="img_ico_forums" src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_sujets.svg'; ?>" alt="icons sujets">
 				</span>
 			</div>
 		<div class="col-md-1">
-				<span class="">
-					<img src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_reponses.svg'; ?>" alt="icons forums">
+				<span class="ico_reponses">
+					<img class="img_ico_reponses" src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_reponses.svg'; ?>" alt="icons forums">
 				</span>
 		</div>
-		<div class="col-md-2">TEMPS</div>
+		<div class="col-md-2">
+				<span class="ico_timer">
+					<img class="img_ico_timer" src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_timer.svg'; ?>" alt="icons forums">
+				</span>
+		</div>
 	</div>
 
 
