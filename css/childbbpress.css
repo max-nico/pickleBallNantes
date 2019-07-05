@@ -19,6 +19,9 @@ Childstyle.css MaxNico
 /* Forums header */
 .img-bk-forums{
     background: rgba(9,19,39);
+    min-height: 650px;
+    position: relative;
+    overflow: hidden;
 }
 .bkimg-forums-header{
     position: relative;
