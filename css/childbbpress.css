@@ -108,6 +108,10 @@ max-width: 37%;
     width: 55px;
     height: 55px;
 }
+.headertabforum {
+    padding:0;
+    background: #74151C;
+}
 
 .iconsujets{
 
