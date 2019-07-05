@@ -1,0 +1,148 @@
+.navbar-custom{
+    background: #09132700;
+}
+
+
+.navbar-wrap, .top-nav-collapse{
+    max-height: 90px;
+}
+
+.btn-danger, .color-danger{
+    background-color: #74151C;
+}
+
+/* TODO: Learning pages Max 01/07/2019 */
+
+.main-content {
+    padding: 0;
+}
+
+.learning{
+    background-color: #121237;
+}
+
+.ult-video{
+    margin: -6% 0 0 0;
+    padding: 0
+}
+
+.btn-e-learning{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    font-size: 2.5em;
+    border-radius: 32px;
+    padding: 11px 21px;
+    z-index: 99; 
+}
+.logo-pickle{
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.logodark, .logowhite{
+    max-width: 100%;
+}
+
+
+
+/*TODO: e-learning carousel 04/07/2019 */
+.block-learning{
+    width: 98%;
+    margin: auto;
+    margin-top: 11%;
+    padding: 1em 1em 0 1em;
+    overflow-x: scroll;
+    position: relative;
+}
+.field-learning{
+    overflow: hidden;
+    width: 200%;
+}
+
+.field-learning h2{
+    position: sticky;
+    margin-bottom: 1em;
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.field-learning iframe{
+    float: left;
+    margin: .2em 1em 0 1em;
+}
+
+.left-arrow, .right-arrow{
+    position: absolute;
+    top: 50%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2em;
+}
+.left-arrow{
+    left: 0;
+}
+.right-arrow{
+    right: 95%;
+}
+
+/*TODO: FOOTER style Nico 05/05/2019 */
+.footer-copyright {
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #09132700;
+    font-size: 13px;
+    color: white;
+}
+.footer-widget {
+    margin: 30px 0;
+}
+.footer{
+    background: #091327;
+}
+.logofooter{
+    width:70%;
+    display:block;
+    margin: auto;
+    text-align: center;
+}
+.logofooter img{
+    width:50%;
+}
+.socialicons-footer{
+    width:70%;
+    display:block;
+}
+.title-social-footer, .title-footer2, .promo-text{
+    font-family: "CA";
+    color:white;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.promo-text{
+    font-size: 25px;
+}
+.title-footer2{
+    text-align:center;
+    font-size: 16px;
+}
+.links-footer{
+    margin-top:20px;
+}
+.link-footer{
+    font-size:12px;
+    color:white;
+    padding:0;
+    text-align:center;
+}
+.link-footer:hover{
+    color:#74151C;
+}
+
+.ult-item-wrap{
+    width: 250%;
+}

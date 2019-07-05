@@ -1,0 +1,119 @@
+/*
+TODO: ADD Bootstrap layout overview Queries NICO le 05/05/2019
+Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap*/
+
+.logo-menu-mobile {
+   display: none;
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1170px) {
+    /* TODO: BBPRESS Nico 01/07/2019 */
+ .txt-forums-header h1,.txt-forums-header h2,.txt-forums-header h3{
+   width: 100%;
+   max-width: none;
+   font-size: 16px;
+   }
+   .txt-forums-header p{
+   width: 100%;
+   max-width: none;
+   font-size: 12px;
+   }
+   .txt-forums-header{
+   display: block;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    position:initial;
+   }
+   .img-bk-forums{
+      position: relative;
+      overflow: hidden;
+   }
+   .roundboxforums {
+      min-height: 155px;
+      min-width: 155px;
+  }
+  .titlecount {
+      font-size: 15px;
+  }
+  .countnumbers {
+      font-size: 24px;
+  }
+   
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+   .socialicons-footer {
+      width: 40%;
+   }
+   
+   .logo-menu-mobile {
+      display: inline;
+      position: absolute;
+      max-width: 100px;
+      max-height: 100px
+   }
+   .logo{
+      max-width: 100px;
+      max-height: 100px;
+   }
+}
+
+@media(max-width: 781px) {
+
+   /* TODO: Learning pages Max 01/07/2019 */
+   
+   .main-content {
+      padding: 0;
+   }
+   
+   .ult-video {
+      width: 150%;
+      margin: 0% -25%;
+      padding: 0
+   }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+   .socialicons-footer {
+      margin: auto;
+      padding-bottom: 10px;
+   }
+
+   .socialicons-footer {
+      width: 80%;
+   }
+
+   .logo-menu-mobile, .logodark, .logowhite {
+      max-width: 64px;
+      max-height: 64px
+   }
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   .roundboxforums {
+      min-height: 95px;
+      min-width: 95px;
+      padding:0;
+      padding-top: 15px;
+  }
+  .titlecount {
+      font-size: 9px;
+  }
+  .countnumbers {
+      font-size: 12px;
+  }
+  .iconforum img, .iconsujets img, .iconresponse img {
+      width: 25px;
+      height: 25px;
+  }
+  .forum-block {
+      padding: 5px; 
+  }
+}
