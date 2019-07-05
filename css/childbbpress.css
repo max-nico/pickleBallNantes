@@ -111,6 +111,8 @@ max-width: 37%;
 .headertabforum {
     padding:0;
     background: #74151C;
+    height: 95px;
+    font-size: 36px;
 }
 
 .iconsujets{
