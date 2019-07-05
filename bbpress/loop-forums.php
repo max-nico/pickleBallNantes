@@ -12,15 +12,15 @@
 <?php do_action( 'bbp_template_before_forums_loop' ); ?>
 
 <ul id="forums-list-<?php bbp_forum_id(); ?>" class="bbp-forums">
-<div class="headertabforum col-md-12">
+<div class="headertabforum row col-md-12">
 		<div class="col-md-7 infotabf">FORUM</div>
 			<div class="col-md-1">  
-				<span class="iconforum">
+				<span class="">
 					<img src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_sujets.svg'; ?>" alt="icons sujets">
 				</span>
 			</div>
 		<div class="col-md-1">
-				<span class="iconforum">
+				<span class="">
 					<img src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_reponses.svg'; ?>" alt="icons forums">
 				</span>
 		</div>
