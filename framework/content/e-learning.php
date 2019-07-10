@@ -28,6 +28,8 @@
     <?php endforeach; ?>
 <?php endwhile; endif; ?>
 
+<div class="progressbar-container"></div>
+<span class="timeline-object"><img src="./wp-content/themes/pickleball/assets/ball.svg" alt="" srcset=""></span>
   <!-- Swiper JS -->
   <script src=" ../wp-content/themes/pickleball/assets/js/swiper.min.js"></script>
 

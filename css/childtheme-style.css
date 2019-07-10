@@ -133,3 +133,15 @@
 .ult-item-wrap{
     width: 250%;
 }
+
+.progressbar-container{
+    z-index: 1;
+    position: fixed;
+    width: 95%;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50px;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+}
