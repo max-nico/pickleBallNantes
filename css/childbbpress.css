@@ -151,7 +151,21 @@ Extra small devices (portrait phones, less than 576px)
  
  /* Medium devices (tablets, less than 992px)*/
  @media (max-width: 991.98px) {
- 
+     .headertabforum {
+         overflow:hidden;
+     }
+    .img_ico_timer {
+        width: 40%;
+    }
+    .headertabforum .col-md-1, .headertabforum .col-md-1{
+        float: left;
+        width: 15%;{
+    }
+    .infotabf{
+        float:left;
+        width:50%;
+    }
+    
  }
  
  @media(max-width: 781px) {
@@ -163,6 +177,8 @@ Extra small devices (portrait phones, less than 576px)
  
  /*Extra small devices (portrait phones, less than 576px)*/
  @media (max-width: 575.98px) {
- 
+    .img_ico_forums, .img_ico_reponses{
+        width: 80%;
+    }
  }
  
