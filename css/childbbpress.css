@@ -125,6 +125,7 @@ max-width: 37%;
     color:white;
     font-family:"CA";
     margin-left:20px;
+    width: 55%;
 }
 .blocktimer{
     text-align:center;
@@ -137,6 +138,13 @@ max-width: 37%;
 }
 .bbp-forum-freshness{
     font-family: "MERRIWEATHERSANS-REGULAR";
+    font-size:12px;
+}
+.bbp-forum-topic-count,.bbp-forum-reply-count{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(9,19,39);
+    font-family: "CA";
 }
 .bbp-forum-freshness a, .bbp-forum-freshness p span a{
     font-family: "MERRIWEATHERSANS-REGULAR";
