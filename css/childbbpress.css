@@ -153,7 +153,7 @@ max-width: 37%;
     font-family: "CA";
 }
 .bbp-forum-freshness a, .bbp-forum-freshness p span a{
-    font-family: "MERRIWEATHERSANS-REGULAR";
+    font-family: "MERRIWEATHERSANS-REGULAR" !important;
 } 
 #bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
     border-top: 1px solid rgba(9,19,39,0.71);
