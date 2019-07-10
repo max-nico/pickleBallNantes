@@ -146,6 +146,12 @@ max-width: 37%;
     color: rgba(9,19,39);
     font-family: "CA";
 }
+.bbp-forum-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(9,19,39);
+    font-family: "CA";
+}
 .bbp-forum-freshness a, .bbp-forum-freshness p span a{
     font-family: "MERRIWEATHERSANS-REGULAR";
 } 
