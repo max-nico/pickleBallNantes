@@ -157,6 +157,10 @@ max-width: 37%;
 } 
 #bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
     border-top: 1px solid rgba(9,19,39,0.71);
+    border-bottom: 1px solid rgba(9,19,39,0.71);
+}
+.bbp-footer{
+    display:none;
 }
 /*
 TODO: ADD Bootstrap layout overview Queries NICO le 05/05/2019
