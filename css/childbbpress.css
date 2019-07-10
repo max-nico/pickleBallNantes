@@ -138,7 +138,12 @@ max-width: 37%;
 .bbp-forum-freshness{
     font-family: "MERRIWEATHERSANS-REGULAR";
 }
-
+.bbp-forum-freshness a, .bbp-forum-freshness p span a{
+    font-family: "MERRIWEATHERSANS-REGULAR";
+} 
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
+    border-top: 1px solid rgba(9,19,39,0.71);
+}
 /*
 TODO: ADD Bootstrap layout overview Queries NICO le 05/05/2019
 Extra small devices (portrait phones, less than 576px)
@@ -155,7 +160,7 @@ Extra small devices (portrait phones, less than 576px)
          overflow:hidden;
      }
     .img_ico_timer {
-        width: 40%;
+        width: 5%;
     }
     .headertabforum .col-md-1, .headertabforum .col-md-1{
         float: left;
