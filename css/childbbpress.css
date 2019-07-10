@@ -111,21 +111,33 @@ max-width: 37%;
 .headertabforum {
     padding:0;
     background: #74151C;
-    height: 95px;
+    height: 80px;
     font-size: 36px;
     margin:0;
 }
 .img_ico_forums,.img_ico_reponses{
     width: 55%;
 }
-
+.img_ico_timer{
+    width:20%;
+}
+.infotabf{
+    color:white;
+    font-family:"CA";
+    margin-left:20px;
+}
+.blocktimer{
+    text-align:center;
+}
 .titlecount{
     font-size: 25px;
     text-align: center;
     font-family: "CA" !important;
     text-transform: uppercase;
 }
-
+.bbp-forum-freshness{
+    font-family: "MERRIWEATHERSANS-REGULAR";
+}
 
 /*
 TODO: ADD Bootstrap layout overview Queries NICO le 05/05/2019
