@@ -143,5 +143,14 @@
     border-radius: 50px;
     left: 50%;
     bottom: 5%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
+}
+.timeline-object svg{
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70px;
+    width: 70px;
 }
