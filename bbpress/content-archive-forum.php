@@ -10,13 +10,9 @@
 ?>
 
 <div id="bbpress-forums">
-	<div class="headertabforum col-md-12">
-		<div class="col-md-5">FORUM</div>
-		<div class="col-md-2">Icontopic</div>
-		<div class="col-md-2">Iconmsg</div>
-		<div class="col-md-3">TEMPS</div>
 
-	</div>
+
+
 	<?php if ( bbp_allow_search() ) : ?>
 
 		<div class="bbp-search-form">

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_12" data-name="Ellipse 12" class="cls-1" cx="30" cy="30" r="30" transform="translate(1710 1599)"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_9" data-name="Groupe de masques 9" class="cls-2" transform="translate(-1710 -1599)">
+    <g id="clock-circular-outline" transform="translate(1710 1599)">
+      <g id="Groupe_41" data-name="Groupe 41">
+        <path id="Tracé_51" data-name="Tracé 51" class="cls-3" d="M30,0A30,30,0,1,0,60,30,30.034,30.034,0,0,0,30,0Zm0,53.617A23.617,23.617,0,1,1,53.617,30,23.644,23.644,0,0,1,30,53.617Z"/>
+        <path id="Tracé_52" data-name="Tracé 52" class="cls-3" d="M45.635,29.074H32.153V12.863a2.47,2.47,0,1,0-4.94,0V31.544a2.47,2.47,0,0,0,2.47,2.47H45.635a2.47,2.47,0,1,0,0-4.94Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

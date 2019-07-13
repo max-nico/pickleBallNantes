@@ -19,6 +19,9 @@ Childstyle.css MaxNico
 /* Forums header */
 .img-bk-forums{
     background: rgba(9,19,39);
+    min-height: 650px;
+    position: relative;
+    overflow: hidden;
 }
 .bkimg-forums-header{
     position: relative;
@@ -105,13 +108,17 @@ max-width: 37%;
     width: 55px;
     height: 55px;
 }
-
-.iconsujets{
-
+.headertabforum {
+    padding:0;
+    background: #74151C;
+    height: 95px;
+    font-size: 36px;
+    margin:0;
 }
-.iconresponse{
-    
+.img_ico_forums,.img_ico_reponses{
+    width: 55%;
 }
+
 .titlecount{
     font-size: 25px;
     text-align: center;

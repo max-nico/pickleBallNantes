@@ -51,43 +51,30 @@
 
 /*TODO: e-learning carousel 04/07/2019 */
 .block-learning{
-    width: 98%;
-    margin: auto;
-    margin-top: 11%;
-    padding: 1em 1em 0 1em;
-    overflow-x: scroll;
+    width: 100%;
     position: relative;
+    margin-top: 10%;
+    justify-content: center;
 }
-.field-learning{
-    overflow: hidden;
-    width: 200%;
+
+.swiper-container{
+    width: 97%;
+    cursor: grab;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+    background: #ffffff!important;
+}
+.swiper-button-prev, .swiper-button-next{
+    color: #ffffff!important;
 }
 
 .field-learning h2{
     position: sticky;
     margin-bottom: 1em;
-    width: 50%;
+    width: 100%;
     color: white;
     text-align: center;
-}
-.field-learning iframe{
-    float: left;
-    margin: .2em 1em 0 1em;
-}
-
-.left-arrow, .right-arrow{
-    position: absolute;
-    top: 50%;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 2em;
-}
-.left-arrow{
-    left: 0;
-}
-.right-arrow{
-    right: 95%;
 }
 
 /*TODO: FOOTER style Nico 05/05/2019 */
@@ -145,4 +132,16 @@
 
 .ult-item-wrap{
     width: 250%;
+}
+
+.progressbar-container{
+    z-index: 1;
+    position: fixed;
+    width: 95%;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50px;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
 }
