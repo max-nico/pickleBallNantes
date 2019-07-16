@@ -92,3 +92,21 @@ html, body{
 #bbpress-forums li.bbp-header {
     background: #ef172f !important;
 }
+
+/*TODO: page acceuil nico 16/07/2019 */
+.button-main{
+display: block;
+font-size: 16px;
+color: rgb(255, 255, 255);
+background: rgb(9, 19, 39);
+padding: 7px 15px;
+margin: 10px 0px 0px;
+border-width: 0px;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-radius: 25px;
+text-align: center;
+}
+.buttonmain:hover{
+    background: #74151c;
+}
