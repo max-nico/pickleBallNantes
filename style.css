@@ -110,3 +110,6 @@ text-align: center;
 .buttonmain:hover{
     background: #74151c;
 }
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+     margin-bottom: 0px; 
+}
