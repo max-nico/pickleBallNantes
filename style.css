@@ -116,3 +116,6 @@ text-align: center;
 .vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner {
     padding-top: 0px;
 }
+.last-post-block{padding-bottom:35px;}
+.stats-top .stats-number,.stats-block .stats-text{padding-top:0px;font-size: 14px;font-family: "CA";}
+.pe-7s-like:before{font-size:30px;}
