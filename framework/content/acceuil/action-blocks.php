@@ -8,7 +8,7 @@
         <img src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_timer.svg'; ?>" alt="">
         </div>
         <div class="col-md-12">
-            <div class="button-main"></div>
+            <div class="button-main"><?php _e( 'Besoins d\'informations'); ?></div>
         </div>
     </div>
     <div class="col-md-4">
