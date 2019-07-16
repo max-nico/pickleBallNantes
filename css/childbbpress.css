@@ -111,22 +111,57 @@ max-width: 37%;
 .headertabforum {
     padding:0;
     background: #74151C;
-    height: 95px;
+    height: 80px;
     font-size: 36px;
     margin:0;
 }
 .img_ico_forums,.img_ico_reponses{
     width: 55%;
 }
-
+.img_ico_timer{
+    width:20%;
+}
+.infotabf{
+    color:white;
+    font-family:"CA";
+    margin-left:20px;
+    width: 55%;
+}
+.blocktimer{
+    text-align:center;
+}
 .titlecount{
     font-size: 25px;
     text-align: center;
     font-family: "CA" !important;
     text-transform: uppercase;
 }
-
-
+.bbp-forum-freshness{
+    font-family: "MERRIWEATHERSANS-REGULAR";
+    font-size:12px;
+}
+.bbp-forum-topic-count,.bbp-forum-reply-count{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(9,19,39);
+    font-family: "CA";
+}
+.bbp-forum-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(9,19,39);
+    font-family: "CA";
+}
+.bbp-forum-freshness a, .bbp-forum-freshness p span a{
+    font-family: "MERRIWEATHERSANS-REGULAR" !important;
+} 
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
+    border-top: 1px solid rgba(9,19,39,0.71);
+    border-bottom: 1px solid rgba(9,19,39,0.71);
+}
+.bbp-footer{
+    display:none;
+}
 /*
 TODO: ADD Bootstrap layout overview Queries NICO le 05/05/2019
 Extra small devices (portrait phones, less than 576px)
@@ -139,7 +174,21 @@ Extra small devices (portrait phones, less than 576px)
  
  /* Medium devices (tablets, less than 992px)*/
  @media (max-width: 991.98px) {
- 
+     .headertabforum {
+         overflow:hidden;
+     }
+    .img_ico_timer {
+        width: 5%;
+    }
+    .headertabforum .col-md-1, .headertabforum .col-md-1{
+        float: left;
+        width: 15%;
+    }
+    .infotabf{
+        float:left;
+        width:50%;
+    }
+    
  }
  
  @media(max-width: 781px) {
@@ -151,6 +200,8 @@ Extra small devices (portrait phones, less than 576px)
  
  /*Extra small devices (portrait phones, less than 576px)*/
  @media (max-width: 575.98px) {
- 
+    .img_ico_forums, .img_ico_reponses{
+        width: 80%;
+    }
  }
  

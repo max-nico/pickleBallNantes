@@ -26,7 +26,7 @@
 					<img class="img_ico_reponses" src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_reponses.svg'; ?>" alt="icons forums">
 				</span>
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-2 blocktimer">
 				<span class="ico_timer">
 					<img class="img_ico_timer" src="<?php  echo get_stylesheet_directory_uri() . '/assets/images/icones/icones_timer.svg'; ?>" alt="icons forums">
 				</span>
