@@ -69,7 +69,7 @@ html, body{
 #main-page{
     margin-top:30px;
 }
-.container-margin .row{margin-top:85px;}
+.main-content .container .row{margin-top:85px;}
 .header{
     background: #e7e6e638;
 }
