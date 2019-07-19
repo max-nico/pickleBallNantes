@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div class="container-full">
+    <div class="container content-wrap">
         <div class="row">
             <?php $layout_value = get_theme_mod( 'insomnia_sidebars', 'sidebar-right' ); ?>
              <?php if ($layout_value == 'sidebar-left'): ?>
