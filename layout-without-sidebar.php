@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name: Sans sidebar
+Template Post Type: page
+*/
+?>
 <?php get_header(); ?>
     <div class="container-fluid content-wrap">
         <div class="row">
