@@ -67,8 +67,9 @@ html, body{
     width: 100%;
 }
 #main-page{
-    margin-top:35px;
+    margin-top:30px;
 }
+.container-margin .row{margin-top:85px;}
 .header{
     background: #e7e6e638;
 }
