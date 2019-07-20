@@ -128,7 +128,10 @@ text-align: center;
 /*TODO: pages pickleball nico 19 20/07/2019 */
 #who-block-group div div a{width:25% !important;margin:auto !important;}
 #pickle-academy div #bp_core_members_widget-2 .item-options,#pickle-academy div #bp_core_members_widget-2 .item-options a,#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-title a,#pickle-academy div #bp_core_members_widget-2 #members-list{color:white;}
+#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-title a{font-size: 18px;}
+#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-meta{font-size:14px;}
 .buddypress.widget .item-options{text-align: center;}
 .widget:last-child{margin-bottom: 30px;}
 .buddypress.widget .avatar-block{justify-content: center;}
+#bp_core_members_widget-2,#bp_core_recently_active_widget-2{text-align: center; color:white;font-size: 25px; padding-top: 15px;font-family: "CA"}
 #pickle-academy div #bp_core_members_widget-2 #members-list{display:flex;justify-content:space-around;}
