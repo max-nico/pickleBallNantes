@@ -129,7 +129,8 @@ text-align: center;
 #who-block-group div div a{width:25% !important;margin:auto !important;}
 #pickle-academy div #bp_core_members_widget-2 .item-options,#pickle-academy div #bp_core_members_widget-2 .item-options a,#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-title a,#pickle-academy div #bp_core_members_widget-2 #members-list{color:white;}
 #pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-title a{font-size: 18px;}
-#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-meta{font-size:14px;}
+#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-meta{font-size:12px;font-family:"MERRIWEATHERSANS-REGULAR"; }
+#pickle-academy div #bp_core_members_widget-2 .item-options a{background: #74151c;padding:5px 5px;}
 .buddypress.widget .item-options{text-align: center;}
 .widget:last-child{margin-bottom: 30px;}
 .buddypress.widget .avatar-block{justify-content: center;}
