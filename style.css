@@ -123,7 +123,7 @@ text-align: center;
 .last-post-block{padding-bottom:35px;}
 .stats-top .stats-number,.stats-block .stats-text{padding-top:0px !important;font-size: 14px !important;font-family: "MERRIWEATHERSANS-REGULAR";}
 .pe-7s-like:before,.pe-7s-world:before,.pe-7s-like2:before,.pe-7s-stopwatch:before{font-size:30px;}
-
+.post-text-acceuil{color:white;}
 
 /*TODO: pages pickleball nico 19 20/07/2019 */
 #who-block-group div div a{width:25% !important;margin:auto !important;}
