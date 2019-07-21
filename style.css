@@ -145,21 +145,23 @@ text-align: center;
     background: rgba(9,19,39);;
     padding: 25px;
     border-radius: 50px;
+    margin-bottom:35px;
 }
 .subway-login-form__actions h3{
     margin:auto;
     text-align: center;
+    color:white;
 }
 .subway-login-form-form{
 
 }
 .login-username,.login-password{
-    width: 100%;
+    width: 100%;color:white;
 }
 .login-username label,.login-password label{float: left;
     width: 100%;
     margin: auto;
-    text-align: center;}
+    text-align: center;color:white;}
 .login-username input,.login-password input{
     width: 100%;
 }
