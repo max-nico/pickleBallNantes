@@ -139,3 +139,27 @@ text-align: center;
 .block-text-white{color:white;}
 
 /*TODO: login nico 21/07/2019 */
+.subway-login-form {
+    width: 407px;
+    margin: auto;
+    background: rgba(9,19,39);;
+    padding: 25px;
+    border-radius: 50px;
+}
+.subway-login-form__actions h3{
+    margin:auto;
+    text-align: center;
+}
+.subway-login-form-form{
+
+}
+.login-username,.login-password{
+    width: 100%;
+}
+.login-username label,.login-password label{float: left;
+    width: 100%;
+    margin: auto;
+    text-align: center;}
+.login-username input,.login-password input{
+    width: 100%;
+}
