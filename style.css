@@ -181,4 +181,5 @@ input#wp-submit:hover{background: #74151c;color:white;}
 /*/////////////////////////////////
 BUDDYPRESS 
 /////////////////////////////////*/
-#basic-details-section{flex:none;}
+#basic-details-section,#profile-details-section{flex:none;margin: auto;text-align: center;}
+.layout-wrap{margin:auto;}
