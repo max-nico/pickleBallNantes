@@ -173,4 +173,5 @@ text-align: center;
     background: white;
 }
 .subway-login-form-message #message,.login-remember,.subway-login-lost-password a{color:white;}
-#wp-submit{background: white;border-radius: 25px;border:1px solid #74151c;padding: 5px;}
+.login-submit{text-align: center;margin: auto;}
+#wp-submit{background: white;border-radius: 25px;border:1px solid #74151c;padding: 5px;width: 80%;color:rgb(9, 19, 39);}
