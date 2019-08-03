@@ -142,7 +142,7 @@ text-align: center;
 .subway-login-form {
     width: 407px;
     margin: auto;
-    background: rgba(9,19,39);;
+    background: rgba(9,19,39);
     padding: 25px;
     border-radius: 50px;
     margin-bottom:35px;
@@ -164,4 +164,11 @@ text-align: center;
     text-align: center;color:white;}
 .login-username input,.login-password input{
     width: 100%;
+}
+.subway-login-sucessfull{
+    color: rgba(9,19,39);
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    background: white;
 }
