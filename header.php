@@ -4,6 +4,8 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="profile" href="http://gmpg.org/xfn/11">
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBFZTkrtNLmpc0AeGTUnLtqp5DEvPT1nc&callback=initMap"
+  type="text/javascript"></script>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <?php $allowed_html_array = wp_kses_allowed_html( 'post' )?>
   <?php if ( ! ( function_exists( 'has_site_icon' ) && has_site_icon() ) ) {?><link rel="shortcut icon" href="<?php echo esc_url(get_theme_mod('insomnia_logo_favicon', get_template_directory_uri() . '/assets/images/favicon.png')); ?>"> <?php };?>
@@ -61,7 +63,7 @@
             //parcour de la liste des elements du menu pour trouver le bon emplacement
             // for (let index = 0; index < menuItem.length; index++) {
             //   if(index >= menuItem.length/2 && index <= menuItem.length/2 ){
-                ul.insertBefore(li, document.getElementById("menu-item-3649"));     
+                ul.insertBefore(li, document.getElementById("menu-item-4164"));     
             //     // ul.appendChild(li) 
             //   }
             // }

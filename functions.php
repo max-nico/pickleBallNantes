@@ -10,8 +10,6 @@ function theme_enqueue_styles() {
  wp_enqueue_style('childtheme-style', get_stylesheet_directory_uri() . '/css/childtheme-style.css', array('parent-style')); 
  wp_enqueue_style('childresponsive', get_stylesheet_directory_uri() . '/css/childresponsive.css', array('parent-style')); 
  wp_enqueue_script('general', get_stylesheet_directory_uri() . '/assets/js/general.js');
- wp_enqueue_script('swiper-min', get_stylesheet_directory_uri() . '/css/swiper.min.css');
-
 }
 
 /*------------------------------------------------------------------------------------*/

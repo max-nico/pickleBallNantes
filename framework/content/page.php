@@ -1,4 +1,4 @@
-				<div class="wrap-content">
+<div class="wrap-content" id="main-page">
 			<?php while ( have_posts() ) : the_post(); ?>
 			<?php the_content(); ?>
 			<?php $defaults = array( 'link_before' => '<span>',	'link_after'  => '</span>','before'   => '<div class="insomnia_pg_single" >',	'after' => '</div>',); wp_link_pages( $defaults );?>
@@ -8,7 +8,5 @@
 				comments_template();
 			}
 			?>
-		
 		<?php endwhile; // end of the loop. ?>
-
-				</div>
+</div>

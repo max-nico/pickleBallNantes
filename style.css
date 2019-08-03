@@ -66,6 +66,10 @@ html, body{
     height: 100%;
     width: 100%;
 }
+#main-page{
+    margin-top:30px;
+}
+.main-content .container .row{margin-top:85px;}
 .header{
     background: #e7e6e638;
 }
@@ -92,3 +96,109 @@ html, body{
 #bbpress-forums li.bbp-header {
     background: #ef172f !important;
 }
+
+/*TODO: page acceuil nico 16/07/2019 */
+.button-main{
+display: block;
+font-size: 16px;
+color: rgb(255, 255, 255);
+background: rgb(9, 19, 39);
+padding: 7px 15px;
+margin: 10px 0px 0px;
+border-width: 0px;
+border-style: solid;
+border-color: rgb(0, 0, 0);
+border-radius: 25px;
+text-align: center;
+}
+.buttonmain:hover{
+    background: #74151c;
+}
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+     margin-bottom: 0px; 
+}
+.vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner {
+    padding-top: 0px;
+}
+.last-post-block{padding-bottom:35px;}
+.stats-top .stats-number,.stats-block .stats-text{padding-top:0px !important;font-size: 14px !important;font-family: "MERRIWEATHERSANS-REGULAR";}
+.pe-7s-like:before,.pe-7s-world:before,.pe-7s-like2:before,.pe-7s-stopwatch:before{font-size:30px;}
+.post-text-acceuil{color:white;}
+
+/*TODO: pages pickleball nico 19 20/07/2019 */
+#who-block-group div div a{width:25% !important;margin:auto !important;}
+#pickle-academy div #bp_core_members_widget-2 .item-options,#pickle-academy div #bp_core_members_widget-2 .item-options a,#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-title a,#pickle-academy div #bp_core_members_widget-2 #members-list{color:white;}
+#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-title a{font-size: 18px;}
+#pickle-academy div #bp_core_members_widget-2 #members-list .vcard .item .item-meta{font-size:12px;font-family:"MERRIWEATHERSANS-REGULAR"; }
+#pickle-academy div #bp_core_members_widget-2 .item-options a{background: #74151c;padding:5px 5px;}
+.buddypress.widget .item-options{text-align: center;}
+.widget:last-child{margin-bottom: 30px;}
+.buddypress.widget .avatar-block{justify-content: center;}
+#bp_core_members_widget-2,#bp_core_recently_active_widget-2{text-align: center; color:white;font-size: 25px; padding-top: 15px;font-family: "CA"}
+#pickle-academy div #bp_core_members_widget-2 #members-list{display:flex;justify-content:space-around;}
+.block-text-white{color:white;}
+
+/*TODO: login nico 21/07/2019 */
+.subway-login-form {
+    width: 407px;
+    margin: auto;
+    background: rgba(9,19,39);
+    padding: 25px;
+    border-radius: 50px;
+    margin-bottom:35px;
+}
+.subway-login-form__actions h3{
+    margin:auto;
+    text-align: center;
+    color:white;
+}
+.subway-login-form-form{
+
+}
+.login-username,.login-password{
+    width: 100%;color:white;
+}
+.login-username label,.login-password label{float: left;
+    width: 100%;
+    margin: auto;
+    text-align: center;color:white;}
+.login-username input,.login-password input{
+    width: 100%;
+}
+.subway-login-sucessfull{
+    color: rgba(9,19,39);
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    background: white;
+}
+.subway-login-lost-password a:hover{color:#74151c;}
+.subway-login-form-message #message,.login-remember,.subway-login-lost-password a{color:white;}
+.login-submit{text-align: center;margin: auto;}
+#wp-submit{background: white;border-radius: 25px;border:1px solid #74151c;padding: 5px;width: 80%;color:rgb(9, 19, 39);font-family: "CA" !important;}
+input#wp-submit:hover{background: #74151c;color:white;}
+
+/*/////////////////////////////////
+BUDDYPRESS 
+/////////////////////////////////*/
+#basic-details-section,#profile-details-section{flex:none;margin: auto;text-align: center;}
+.layout-wrap{margin:auto;}
+#register-page{padding:25px;}
+.buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea{width:50%;}
+#basic-details-section #signup_username,#basic-details-section #signup_email,#basic-details-section #signup_password,#basic-details-section #signup_password_confirm,#profile-details-section .editfield fieldset #field_1 {border: 1px solid rgba(9,19,39);background: #eee ;border-radius: 0;color: #333 ;font: inherit;font-size: 100% ;padding: 6px ;outline: none ;}
+#basic-details-section #signup_username:hover,#basic-details-section #signup_email:hover,#basic-details-section #signup_password:hover,#basic-details-section #signup_password_confirm:hover,#profile-details-section .editfield fieldset #field_1:hover{border: 3px solid #74151c ; background: white;}
+.buddypress-wrap .standard-form .field-visibility-settings-header{margin-top: 20px;}
+.buddypress-wrap .field-visibility-settings, .buddypress-wrap .field-visibility-settings-header{color:black;}
+.buddy-btn-submit .submit{text-align: center;}
+.buddy-btn-submit .submit #signup_submit{background: rgba(9,19,39) ;border-radius: 25px;border:1px solid #74151c ;padding: 5px 5px 5px 5px ;color:white;font-family: "CA" ;width:30%;}
+.buddy-btn-submit .submit #signup_submit:hover{color:white ;background: #74151c;border:1px solid rgba(9,19,39) ;}
+#field-visibility-settings-toggle-1 button{background: white ;border-radius: 25px;border:1px solid #74151c;padding: 5px 5px 5px 5px;color:black;font-family: "CA";}
+#buddypress button:hover{color:white ;background: #74151c ;border:1px solid rgba(9,19,39);}
+legend{border-bottom: none;}
+.img-register{text-align: center;}
+.img-register img{width:30%;}
+/*/////////////////////////////////
+SIDEBAR
+/////////////////////////////////*/
+.soc-footer li a{color:rgb(9, 19, 39)!important;}
+.soc-footer li a:hover{background: #74151c; opacity:0.7;transition: 0.9s;color:white!important;padding:5px;border-radius:15px;}
