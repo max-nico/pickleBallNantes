@@ -11,7 +11,7 @@
 	<?php bp_nouveau_signup_hook( 'before', 'page' ); ?>
 <div id="info-register" class="row col-md-12">
 <?php  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php  $the_fields = get_fields('information_inscription');echo $the_fields ;?>
+<?php echo the_field('information_inscription');?>
 <?php endwhile; endif; ?>
 </div>
 	<div id="register-page"class="page register-page">
