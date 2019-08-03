@@ -9,12 +9,7 @@
 ?>
 
 	<?php bp_nouveau_signup_hook( 'before', 'page' ); ?>
-<div id="info-register" class="row col-md-12">
-<?php  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php echo the_field('information_inscription');?>
-<?php endwhile; endif; ?>
-</div>
-	<div id="register-page"class="page register-page">
+	<div id="register-page"class="page register-page col-md-12">
 		<?php bp_nouveau_template_notices(); ?>
 
 			<?php bp_nouveau_user_feedback( bp_get_current_signup_step() ); ?>

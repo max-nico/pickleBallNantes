@@ -184,3 +184,4 @@ BUDDYPRESS
 #basic-details-section,#profile-details-section{flex:none;margin: auto;text-align: center;}
 .layout-wrap{margin:auto;}
 #register-page{padding:25px;}
+.buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea{width:50%;}
