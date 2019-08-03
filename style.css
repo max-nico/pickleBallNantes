@@ -204,3 +204,5 @@ BUDDYPRESS
 #field-visibility-settings-toggle-1 button{background: white ;border-radius: 25px;border:1px solid #74151c;padding: 5px 5px 5px 5px;color:black;font-family: "CA";}
 #buddypress button:hover{color:white ;background: #74151c ;border:1px solid rgba(9,19,39);}
 legend{border-bottom: none;}
+.img-register{text-align: center;}
+.img-register img{width:30%;}
