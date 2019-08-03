@@ -186,20 +186,20 @@ BUDDYPRESS
 #register-page{padding:25px;}
 .buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea{width:50%;}
 #basic-details-section #signup_username,#basic-details-section #signup_email,#basic-details-section #signup_password,#basic-details-section #signup_password_confirm,#profile-details-section .editfield fieldset #field_1 {
-    border: 1px solid rgba(9,19,39) !important;
-    background: #eee  !important;
+    border: 1px solid rgba(9,19,39);
+    background: #eee ;
     border-radius: 0;
-    color: #333 !important;
+    color: #333 ;
     font: inherit;
-    font-size: 100% !important;
-    padding: 6px !important;
-    outline: none !important;
+    font-size: 100% ;
+    padding: 6px ;
+    outline: none ;
 }
-#basic-details-section input:hover,#profile-details-section input:hover{border: 3px solid #74151c !important;}
+#basic-details-section #signup_username:hover,#basic-details-section #signup_email:hover,#basic-details-section #signup_password:hover,#basic-details-section #signup_password_confirm:hover,#profile-details-section .editfield fieldset #field_1:hover{border: 3px solid #74151c ; background: white;}
 .buddypress-wrap .standard-form .field-visibility-settings-header{margin-top: 20px;}
 .buddypress-wrap .field-visibility-settings, .buddypress-wrap .field-visibility-settings-header{color:black;}
 .buddy-btn-submit .submit{text-align: center;}
-.buddy-btn-submit .submit #signup_submit{background: rgba(9,19,39) !important;border-radius: 25px;border:1px solid #74151c !important;padding: 5px 5px 5px 5px !important;color:white !important;font-family: "CA" !important;width:30%;}
-.buddy-btn-submit .submit #signup_submit:hover{color:white !important;background: #74151c !important;border:1px solid rgba(9,19,39) !important;}
-#field-visibility-settings-toggle-1 button{background: white !important;border-radius: 25px;border:1px solid #74151c !important;padding: 5px 5px 5px 5px !important;color:black !important;font-family: "CA" !important;}
-#buddypress button:hover{color:white !important;background: #74151c !important;border:1px solid rgba(9,19,39) !important;}
+.buddy-btn-submit .submit #signup_submit{background: rgba(9,19,39) ;border-radius: 25px;border:1px solid #74151c ;padding: 5px 5px 5px 5px ;color:white;font-family: "CA" ;width:30%;}
+.buddy-btn-submit .submit #signup_submit:hover{color:white ;background: #74151c;border:1px solid rgba(9,19,39) ;}
+#field-visibility-settings-toggle-1 button{background: white ;border-radius: 25px;border:1px solid #74151c;padding: 5px 5px 5px 5px;color:black;font-family: "CA";}
+#buddypress button:hover{color:white ;background: #74151c ;border:1px solid rgba(9,19,39);}
