@@ -181,4 +181,4 @@ input#wp-submit:hover{background: #74151c;color:white;}
 /*/////////////////////////////////
 BUDDYPRESS 
 /////////////////////////////////*/
-.buddypress-wrap.extended-default-reg .register-page .default-profile{flex:none;}
+#basic-details-section{flex:none;}
