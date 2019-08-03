@@ -201,5 +201,5 @@ BUDDYPRESS
 .buddy-btn-submit .submit{text-align: center;}
 .buddy-btn-submit .submit #signup_submit{background: rgba(9,19,39) !important;border-radius: 25px;border:1px solid #74151c !important;padding: 5px 5px 5px 5px !important;color:white !important;font-family: "CA" !important;width:30%;}
 .buddy-btn-submit .submit #signup_submit:hover{color:white !important;background: #74151c !important;border:1px solid rgba(9,19,39) !important;}
-#buddypress button{background: rgba(9,19,39) !important;border-radius: 25px;border:1px solid #74151c !important;padding: 5px 5px 5px 5px !important;color:white !important;font-family: "CA" !important;}
+#field-visibility-settings-toggle-1 button{background: rgba(9,19,39) !important;border-radius: 25px;border:1px solid #74151c !important;padding: 5px 5px 5px 5px !important;color:white !important;font-family: "CA" !important;}
 #buddypress button:hover{color:white !important;background: #74151c !important;border:1px solid rgba(9,19,39) !important;}
