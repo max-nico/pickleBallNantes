@@ -195,7 +195,7 @@ BUDDYPRESS
     padding: 6px !important;
     outline: none !important;
 }
-#basic-details-section #signup_username:hover{border: 1px solid #74151c !important;}
+#basic-details-section input:hover,#profile-details-section input:hover{border: 3px solid #74151c !important;}
 .buddypress-wrap .standard-form .field-visibility-settings-header{margin-top: 20px;}
 .buddypress-wrap .field-visibility-settings, .buddypress-wrap .field-visibility-settings-header{color:black;}
 .buddy-btn-submit .submit{text-align: center;}
