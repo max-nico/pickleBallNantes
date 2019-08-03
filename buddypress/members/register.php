@@ -9,9 +9,12 @@
 ?>
 
 	<?php bp_nouveau_signup_hook( 'before', 'page' ); ?>
-
+<div id="info-register" class="row col-md-12">
+<?php  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php  $the_fields = get_fields('information_inscription');echo $the_fields ?>
+<?php endwhile; endif; ?>
+</div>
 	<div id="register-page"class="page register-page">
-
 		<?php bp_nouveau_template_notices(); ?>
 
 			<?php bp_nouveau_user_feedback( bp_get_current_signup_step() ); ?>
@@ -114,7 +117,9 @@
 					<?php bp_nouveau_signup_privacy_policy_acceptance_section(); ?>
 				<?php endif; ?>
 
-				<?php bp_nouveau_submit_button( 'register' ); ?>
+				<div class="buddy-btn-submit">
+					<?php bp_nouveau_submit_button( 'register' ); ?>
+				</div>
 
 			<?php endif; ?>
 
