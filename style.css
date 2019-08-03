@@ -172,6 +172,7 @@ text-align: center;
     text-align: center;
     background: white;
 }
+.subway-login-lost-password a:hover{color:#74151c;}
 .subway-login-form-message #message,.login-remember,.subway-login-lost-password a{color:white;}
 .login-submit{text-align: center;margin: auto;}
-#wp-submit{background: white;border-radius: 25px;border:1px solid #74151c;padding: 5px;width: 80%;color:rgb(9, 19, 39);}
+#wp-submit{background: white;border-radius: 25px;border:1px solid #74151c;padding: 5px;width: 80%;color:rgb(9, 19, 39);font-family: "CA" !important;}
