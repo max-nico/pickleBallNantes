@@ -24,7 +24,7 @@
 
 				<?php bp_nouveau_signup_hook( 'before', 'account_details' ); ?>
 
-				<div class="register-section default-profile" id="basic-details-section">
+				<div class="register-section default-profile col-md-12" id="basic-details-section">
 
 					<?php /***** Basic Account Details ******/ ?>
 
@@ -42,7 +42,7 @@
 
 					<?php bp_nouveau_signup_hook( 'before', 'signup_profile' ); ?>
 
-					<div class="register-section extended-profile" id="profile-details-section">
+					<div class="register-section extended-profile col-md-12" id="profile-details-section">
 
 						<h2 class="bp-heading"><?php esc_html_e( 'Profile Details', 'buddypress' ); ?></h2>
 
