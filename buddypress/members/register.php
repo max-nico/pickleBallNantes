@@ -18,7 +18,7 @@
 
 			<form action="" name="signup_form" id="signup-form" class="standard-form signup-form clearfix" method="post" enctype="multipart/form-data">
 
-			<div class="layout-wrap col-md-12">
+			<div class="layout-wrap col-md-12 row">
 
 			<?php if ( 'request-details' === bp_get_current_signup_step() ) : ?>
 
