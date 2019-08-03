@@ -185,7 +185,7 @@ BUDDYPRESS
 .layout-wrap{margin:auto;}
 #register-page{padding:25px;}
 .buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea{width:50%;}
-#buddypress .dir-search input[type=search], #buddypress .dir-search input[type=text], #buddypress .groups-members-search input[type=search], #buddypress .groups-members-search input[type=text], #buddypress .standard-form input[type=color], #buddypress .standard-form input[type=date], #buddypress .standard-form input[type=datetime-local], #buddypress .standard-form input[type=datetime], #buddypress .standard-form input[type=email], #buddypress .standard-form input[type=month], #buddypress .standard-form input[type=number], #buddypress .standard-form input[type=password], #buddypress .standard-form input[type=range], #buddypress .standard-form input[type=search], #buddypress .standard-form input[type=tel], #buddypress .standard-form input[type=text], #buddypress .standard-form input[type=time], #buddypress .standard-form input[type=url], #buddypress .standard-form input[type=week], #buddypress .standard-form select, #buddypress .standard-form textarea {
+#basic-details-section #signup_username,#basic-details-section #signup_email {
     border: 1px solid rgba(9,19,39) !important;
     background: #eee  !important;
     border-radius: 0;
