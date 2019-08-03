@@ -185,7 +185,7 @@ BUDDYPRESS
 .layout-wrap{margin:auto;}
 #register-page{padding:25px;}
 .buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea{width:50%;}
-#basic-details-section #signup_username,#basic-details-section #signup_email {
+#basic-details-section #signup_username,#basic-details-section #signup_email,#basic-details-section #signup_password,#basic-details-section #signup_password_confirm,#profile-details-section .editfield fieldset #field_1 {
     border: 1px solid rgba(9,19,39) !important;
     background: #eee  !important;
     border-radius: 0;
@@ -195,4 +195,4 @@ BUDDYPRESS
     padding: 6px !important;
     outline: none !important;
 }
-#buddypress .standard-form input[type=text]:active{border: 1px solid #74151c !important;}
+#basic-details-section input:active{border: 1px solid #74151c !important;}

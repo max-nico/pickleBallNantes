@@ -9,6 +9,9 @@
 ?>
 
 	<?php bp_nouveau_signup_hook( 'before', 'page' ); ?>
+	<div class="col-md-12" id="infos-register">
+		Bienvenue 
+	</div>
 	<div id="register-page"class="page register-page col-md-12">
 		<?php bp_nouveau_template_notices(); ?>
 
