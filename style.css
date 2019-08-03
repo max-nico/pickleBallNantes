@@ -201,4 +201,4 @@ legend{border-bottom: none;}
 SIDEBAR
 /////////////////////////////////*/
 .soc-footer li a{color:rgb(9, 19, 39)!important;}
-.soc-footer li a:hover{background: #74151c; opacity:0.7;transition: 0.9s;color:white!important;}
+.soc-footer li a:hover{background: #74151c; opacity:0.7;transition: 0.9s;color:white!important;padding:5px;border-radius:15px;}
