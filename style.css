@@ -196,3 +196,7 @@ BUDDYPRESS
     outline: none !important;
 }
 #basic-details-section input:active{border: 1px solid #74151c !important;}
+.buddypress-wrap .standard-form .field-visibility-settings-header{margin-top: 20px;}
+.buddypress-wrap .field-visibility-settings, .buddypress-wrap .field-visibility-settings-header{color:black;}
+.buddy-btn-submit .submit{text-align: center;}
+.buddy-btn-submit .submit #sign_upsubmit{background: white;border-radius: 25px;border:1px solid #74151c;padding: 5px;width: 80%;color:rgb(9, 19, 39);font-family: "CA" !important;width:30%;}

@@ -115,7 +115,7 @@
 					<?php bp_nouveau_signup_privacy_policy_acceptance_section(); ?>
 				<?php endif; ?>
 
-				<div class="buddy-btn-submit">
+				<div class="buddy-btn-submit col-md-12">
 					<?php bp_nouveau_submit_button( 'register' ); ?>
 				</div>
 
