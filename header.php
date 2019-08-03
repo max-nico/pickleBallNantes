@@ -63,7 +63,7 @@
             //parcour de la liste des elements du menu pour trouver le bon emplacement
             // for (let index = 0; index < menuItem.length; index++) {
             //   if(index >= menuItem.length/2 && index <= menuItem.length/2 ){
-                ul.insertBefore(li, document.getElementById("menu-item-3649"));     
+                ul.insertBefore(li, document.getElementById("menu-item-4164"));     
             //     // ul.appendChild(li) 
             //   }
             // }
