@@ -177,3 +177,8 @@ text-align: center;
 .login-submit{text-align: center;margin: auto;}
 #wp-submit{background: white;border-radius: 25px;border:1px solid #74151c;padding: 5px;width: 80%;color:rgb(9, 19, 39);font-family: "CA" !important;}
 input#wp-submit:hover{background: #74151c;color:white;}
+
+/*/////////////////////////////////
+BUDDYPRESS 
+/////////////////////////////////*/
+.buddypress-wrap.extended-default-reg .register-page .default-profile{flex:none;}
