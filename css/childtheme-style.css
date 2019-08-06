@@ -195,7 +195,7 @@
     background: rgb(9,19,39);
     border-bottom: 1px solid rgb(9,19,39);
 }
-.bbpress .tag_line.forums{display:none;}
+.forum-archive .tag_line.forums{display:none;}
 /*BLOG */
 .blog .wrapper .main-content .container.content-wrap {padding-top: 0px;width:100%;}
 .archive .wrapper .main-content .content-wrap{padding-top:0px;}
