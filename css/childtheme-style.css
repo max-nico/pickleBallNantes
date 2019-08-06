@@ -258,4 +258,4 @@ input[type="submit"]:hover{background: #74151C;}
 .st_sf_lmc_holder{margin-bottom:25px;}
 #single-container{margin-top:25px;}
 /*BUDDYPRESS*/
-.buddypress-wrpa .public .profile-fields td.label{color:black;}
+.buddypress-wrap .public .profile-fields td.label{color:black;}
