@@ -252,4 +252,5 @@ input[type="submit"]:hover{background: #74151C;}
 .woocommerce-product-search{margin:auto;text-align: center;width:80%;}
 .woocommerce .products .product .onsale{background: #74151C;width:22%;}
 /*PORTFOLIO*/
-#load_more_port_masorny_posts{width:50%;display:block;margin-bottom: 25px;margin:auto;}
+#load_more_port_masorny_posts{width:50%;display:block;margin-bottom: 25px;margin:auto;background: #091327;}
+#load_more_port_masorny_posts:hover{background: #74151C;}
