@@ -45,6 +45,9 @@ Extra small devices (portrait phones, less than 576px)
   .block-learning{
    margin-top: 11%;
 }
+.swiper-slide iframe{
+   width : 40%;   
+}
 }
 
 /* Medium devices (tablets, less than 992px)*/
