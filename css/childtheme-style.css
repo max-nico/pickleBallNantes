@@ -241,5 +241,5 @@ input[type="submit"]{font-family: "CA"; background: #091327;color:white;padding:
 input[type="submit"]:hover{background: #74151C;}
 /*BOUTIQUE */
 #boutique-home{margin-top:15px;}
-.insomnia_product-title{color:black;}
+.insomnia_product-details-container .insomnia_product-title a{color:black;}
 .woocommerce-Price-amount,.woocommerce-Price-currencySymbol{color:black;}
