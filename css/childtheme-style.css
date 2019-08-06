@@ -11,6 +11,18 @@
     background-color: #74151C;
 }
 
+.menu-item-white > a{
+    color: #fff;
+}
+
+.menu-item-white > a:hover{
+    color: #dddddd;
+}
+
+ul#menu-main-menu > .current-menu-ancestor > a {
+    color: #dddddd;
+}
+
 /* TODO: Learning pages Max 01/07/2019 */
 
 .main-content {
