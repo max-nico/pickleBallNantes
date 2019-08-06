@@ -38,7 +38,7 @@
 	<div class="container-fluid">
 		<div class="row">
              <?php if ($layout_value == 'sidebar-left'): ?>
-                 <div class="container-fluid">
+                 <div class="container-fluid" id="single-container">
                     <div class="row">
                         <div class="col-lg-9 col-md-9 col col-sm-12 col-xs-12 sidebar-left">
 							<div class="wrap-content">   
