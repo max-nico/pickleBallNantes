@@ -184,9 +184,9 @@ BUDDYPRESS
 #basic-details-section,#profile-details-section{flex:none;margin: auto;text-align: center;}
 .layout-wrap{margin:auto;}
 #register-page{padding:25px;}
-.buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea{width:50%;}
-#basic-details-section #signup_username,#basic-details-section #signup_email,#basic-details-section #signup_password,#basic-details-section #signup_password_confirm,#profile-details-section .editfield fieldset #field_1 {border: 1px solid rgba(9,19,39);background: #eee ;border-radius: 0;color: #333 ;font: inherit;font-size: 100% ;padding: 6px ;outline: none ;}
-#basic-details-section #signup_username:hover,#basic-details-section #signup_email:hover,#basic-details-section #signup_password:hover,#basic-details-section #signup_password_confirm:hover,#profile-details-section .editfield fieldset #field_1:hover{border: 3px solid #74151c ; background: white;}
+.buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea,.buddypress-wrap .standard-form select{width:50%;}
+#basic-details-section #signup_username,#basic-details-section #signup_email,#basic-details-section #signup_password,#basic-details-section #signup_password_confirm,#profile-details-section .editfield fieldset #field_1,#profile-details-section .editfield fieldset #field_521,#profile-details-section .editfield fieldset #field_522,#profile-details-section .editfield fieldset #field_531,#profile-details-section .editfield fieldset #field_532,#profile-details-section .editfield fieldset #field_533 {border: 1px solid rgba(9,19,39);background: #eee ;border-radius: 0;color: #333 ;font: inherit;font-size: 100% ;padding: 6px ;outline: none ;}
+#basic-details-section #signup_username:hover,#basic-details-section #signup_email:hover,#basic-details-section #signup_password:hover,#basic-details-section #signup_password_confirm:hover,#profile-details-section #basic-details-section #signup_password_confirm:hover,#profile-details-section .editfield fieldset #field_1:hover,#profile-details-section .editfield fieldset #field_521:hover,#profile-details-section .editfield fieldset #field_522:hover,#profile-details-section .editfield fieldset #field_531:hover,#profile-details-section .editfield fieldset #field_532:hover,#profile-details-section .editfield fieldset #field_533:hover{border: 3px solid #74151c ; background: white;}
 .buddypress-wrap .standard-form .field-visibility-settings-header{margin-top: 20px;}
 .buddypress-wrap .field-visibility-settings, .buddypress-wrap .field-visibility-settings-header{color:black;}
 .buddy-btn-submit .submit{text-align: center;}
@@ -202,4 +202,4 @@ SIDEBAR
 /////////////////////////////////*/
 .soc-footer li a{color:rgb(9, 19, 39)!important;}
 .soc-footer li a:hover{background: #74151c; opacity:0.7;transition: 0.9s;color:white!important;padding:5px;border-radius:15px;}
-.sidebar{margin-top:50px;}
+

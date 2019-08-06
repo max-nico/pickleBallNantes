@@ -45,6 +45,9 @@ Extra small devices (portrait phones, less than 576px)
   .block-learning{
    margin-top: 11%;
 }
+.post-set{
+   width:100%;
+}
 }
 
 /* Medium devices (tablets, less than 992px)*/
@@ -131,6 +134,15 @@ Extra small devices (portrait phones, less than 576px)
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+   h1{
+      font-size:18px;
+   }
+   h2{
+      font-size:17px;
+   }
+   h3{font-size: 16px;}
+   h4{font-size: 15px;}
+   h5,h6{font-size:14px;}
    .roundboxforums {
       min-height: 95px;
       min-width: 95px;
@@ -150,8 +162,12 @@ Extra small devices (portrait phones, less than 576px)
   .forum-block {
       padding: 5px; 
   }
-
-  
+  .subway-login-form{
+   width: 100%;
+  }
+  .img-register img{width:100%;}
+  .buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea{width:100%;}
+  .buddy-btn-submit .submit #signup_submit{width:95%;}
   .block-learning{
    margin-top: 22%;
 }
