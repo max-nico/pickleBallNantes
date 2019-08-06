@@ -130,6 +130,7 @@ Extra small devices (portrait phones, less than 576px)
    .block-learning{
       margin-top: 20%;
    }
+   input[type="submit"]{ width:50%;}
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
