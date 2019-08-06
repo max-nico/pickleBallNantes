@@ -239,3 +239,7 @@ label{width:80%;text-align:center;}
 .wpcf7-form-control:hover{border:3px solid #74151C;}
 input[type="submit"]{font-family: "CA"; background: #091327;color:white;padding:5px;width:20%;border-radius:25px;text-align: center;font-size:18px;}
 input[type="submit"]:hover{background: #74151C;}
+/*BOUTIQUE */
+#boutique-home{margin-top:15px;}
+.insomnia_product-title{color:black;}
+.woocommerce-Price-amount,.woocommerce-Price-currencySymbol{color:black;}
