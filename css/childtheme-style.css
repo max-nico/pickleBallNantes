@@ -244,5 +244,5 @@ input[type="submit"]:hover{background: #74151C;}
 .insomnia_product-details-container .insomnia_product-title a{color:black;}
 .woocommerce-Price-amount,.woocommerce-Price-currencySymbol{color:black;}
 .insomnia_product-wrap{border:1px solid rgb(18,18,55,0.1);background: rgb(18,18,55,0.02);padding: 10px;}
-.woocommerce .woocommerce-breadcumb{color:white;}
+.woocommerce .woocommerce-breadcrumb{color:white;}
 .woocommerce .woocommerce-breadcrumb a{color:white !important;}
