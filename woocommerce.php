@@ -9,7 +9,7 @@
             </div>
         </div>
     </div>
-        <div class="container margin">
+        <div class="container-fluid" id="boutique-home">
         <div class="row">
             <?php $layout_value = get_theme_mod( 'insomnia_woo_sidebars', 'sidebar-no' ); ?>
              <?php if ($layout_value == 'sidebar-left'): ?>
