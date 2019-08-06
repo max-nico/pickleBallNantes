@@ -234,8 +234,8 @@ width:40%;margin: auto;}
 .bp-navs ul li a, .bp-navs ul li span{font-family: "MERRIWEATHERSANS-BOLD" !important;}
 /*CONTACT */
 .block-contact{text-align:center;}
-.label{width:80%;text-align:center;}
+label{width:80%;text-align:center;}
 .wpcf7-form-control{border:1px solid #091327;font-family: "MERRIWEATHERSANS-BOLD";}
-.wpcf7-form-control:hover{border:1px solid #74151C;}
-input[type="submit"]{ background: rgba(85, 85, 116);color:white;padding:5px;border-radius:25px;text-align: center;font-size:18px;}
+.wpcf7-form-control:hover{border:3px solid #74151C;}
+input[type="submit"]{ background: #091327;color:white;padding:5px;border-radius:25px;text-align: center;font-size:18px;}
 input[type="submit"]:hover{background: #74151C;}
