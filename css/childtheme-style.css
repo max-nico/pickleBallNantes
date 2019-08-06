@@ -246,3 +246,5 @@ input[type="submit"]:hover{background: #74151C;}
 .insomnia_product-wrap{border:1px solid rgb(9,19,39,0.1);background: rgb(9,19,39,0.02);padding: 10px;}
 .woocommerce .woocommerce-breadcrumb{color:white;}
 .woocommerce .woocommerce-breadcrumb a{color:white !important;}
+.woocommerce-product-search button{float:left;margin-top: 20px;font-family: "CA"; background: #091327;color:white;padding:5px;border-radius:25px;text-align: center;font-size:18px;}
+.woocommerce-product-search{margin:auto;text-align: center;width:80%;}
