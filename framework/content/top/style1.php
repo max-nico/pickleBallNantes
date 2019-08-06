@@ -18,7 +18,7 @@
             <div class="menu-responsive desktop">
               <div class="menu-center">
                 <div class="collapse navbar-collapse navbar-main-collapse responsive-menu">
-                      <? wp_nav_menu( array(
+                      <?php wp_nav_menu( array(
                         'theme_location' => 'menu',
                         'container' => false,
                         'menu_class' => 'nav navbar-nav',

@@ -258,4 +258,19 @@ input[type="submit"]:hover{background: #74151C;}
 .st_sf_lmc_holder{margin-bottom:25px;}
 #single-container{margin-top:25px;}
 /*BUDDYPRESS*/
-.buddypress-wrap .public .profile-fields td.label{color:black;}
+.buddypress-wrap .public .profile-fields td.label
+{
+    color:black;
+    /* TODO: A verifier suite au merge */
+    transform: translate(-50%, -50%);
+}
+
+.timeline-object svg{
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70px;
+    width: 70px;
+}
