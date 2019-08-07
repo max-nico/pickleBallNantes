@@ -1,14 +1,5 @@
 
-<script type="text/javascript">
-    //changement de class html pour affichage sur page bleue
-    let list = document.querySelectorAll(".nav-item")
-    
-    list.forEach(element => {
-      element.className += " menu-item-white";
-    });
-    console.log(list);
-    
-</script>
+<script src="../wp-content/themes/pickleball/assets/js/navBarStateColor.js"></script>
 <link rel="stylesheet" href="../wp-content/themes/pickleball/css/swiper.min.css">
 <!-- TODO: utilisation du style pour la couleur du texte du menu  -->
 <?php  if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
