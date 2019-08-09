@@ -2,7 +2,6 @@
     background: #09132700;
 }
 
-
 .navbar-wrap,
 .top-nav-collapse {
     max-height: 90px;
@@ -69,7 +68,7 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
 
 .logodark,
 .logowhite {
-    max-width: 100%;
+    max-width: 100px;
     max-height: 85px;
 }
 
