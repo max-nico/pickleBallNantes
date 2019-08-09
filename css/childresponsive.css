@@ -45,9 +45,13 @@ Extra small devices (portrait phones, less than 576px)
   .block-learning{
    margin-top: 11%;
 }
+
 .post-set{
    width:100%;
 }
+
+.swiper-slide iframe{
+   width : 40%;   
 }
 
 /* Medium devices (tablets, less than 992px)*/
@@ -55,7 +59,7 @@ Extra small devices (portrait phones, less than 576px)
    .socialicons-footer {
       width: 40%;
    }
-   
+
    .logo-menu-mobile {
       display: inline;
       position: absolute;
@@ -63,31 +67,31 @@ Extra small devices (portrait phones, less than 576px)
       max-height: 100px
    }
    .logo{
-      max-width: 100px;
-      max-height: 100px;
+      max-width: 128px;
+      max-height: 128px;
    }
    .block-learning{
       width: 95%;
       margin: 11% auto auto auto;
       position: relative;
-  }
-  
-  .field-learning h2{
+   }
+   
+   .field-learning h2{
      font-size: 1.2em;
-  }
-
+   }
+   
    .swiper-slide iframe{
       width: 100%;
       height: 100%;
    }
-
+   
    .block-learning{
       margin-top: 12%;
    }
 }
 
 @media(max-width: 781px) {
-
+   
    /* TODO: Learning pages Max 01/07/2019 */
    
    .main-content {
@@ -107,7 +111,11 @@ Extra small devices (portrait phones, less than 576px)
    .block-learning{
       margin-top: 16%;
    }
- 
+
+   .btn-e-learning {
+      font-size: 1.2em!important;
+   }
+   
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -116,16 +124,16 @@ Extra small devices (portrait phones, less than 576px)
       margin: auto;
       padding-bottom: 10px;
    }
-
+   
    .socialicons-footer {
       width: 80%;
    }
-
-   .logo-menu-mobile, .logodark, .logowhite {
+   
+   .logo{
       max-width: 64px;
-      max-height: 64px
+      max-height: 64px;
    }
-
+   
    
    .block-learning{
       margin-top: 20%;
