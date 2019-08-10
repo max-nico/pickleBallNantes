@@ -1,4 +1,3 @@
-
 <script src="../wp-content/themes/pickleball/assets/js/navBarStateColor.js"></script>
 <link rel="stylesheet" href="../wp-content/themes/pickleball/css/swiper.min.css">
 <!-- TODO: utilisation du style pour la couleur du texte du menu  -->
