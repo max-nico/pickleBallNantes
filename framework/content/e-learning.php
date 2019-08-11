@@ -30,7 +30,7 @@
     <?php endforeach; ?>
 <?php endwhile; endif; ?>
 
-<div class="progressbar-container">
+<!-- <div class="progressbar-container">
 <span class="timeline-object"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="142" viewBox="0 0 142 142">
   <defs>
     <pattern id="pattern" width="1" height="1" viewBox="387.545 81.212 60.788 60.788">
@@ -43,7 +43,7 @@
   </g>
 </svg>
 </span>
-</div>
+</div> -->
   <!-- Swiper JS -->
   <script type="text/javascript" src=" ../wp-content/themes/pickleball/assets/js/swiper.min.js"></script>
 

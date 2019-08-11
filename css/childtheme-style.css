@@ -75,26 +75,27 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
 
 
 /*TODO: e-learning carousel 04/07/2019 */
+.field-learning:first-child {
+    margin-top : 10em;
+}
 .block-learning {
     width: 100%;
     position: relative;
-    margin-top: 100px;
-    justify-content: center;
-}
-
-.block-learning:first-child {
-    margin-top: 200px;
+    margin-top: 0;
 }
 
 .swiper-container {
     width: 97%;
     cursor: grab;
+    overflow: unset!important;
 }
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
     background: #ffffff !important;
 }
-
+.swiper-container-horizontal>.swiper-pagination-progressbar{
+    top: -30px!important;
+}
 .swiper-button-prev,
 .swiper-button-next {
     color: #ffffff !important;
@@ -102,7 +103,7 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
 
 .field-learning h2 {
     position: sticky;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     width: 100%;
     color: white;
     text-align: center;
