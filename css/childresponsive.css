@@ -7,6 +7,13 @@ Extra small devices (portrait phones, less than 576px)
    display: none;
 }
 
+.menu-transparent .nav-icon3 span {
+   background: #000; 
+}
+
+
+
+
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1170px) {
     /* TODO: BBPRESS Nico 01/07/2019 */
@@ -54,12 +61,29 @@ Extra small devices (portrait phones, less than 576px)
    width : 40%;   
 }
 
+
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
+
+   .burger_insomnia_menu_overlay_normal .burger_insomnia_main_menu a:hover, 
+   .burger_insomnia_menu_overlay_normal li.current-menu-item > a{
+      border-bottom: 6px solid #74151C;
+      color: #fff;
+      transition: 0;
+   }
+   
+   .burger_insomnia_menu_overlay_normal .burger_insomnia_main_menu li.menu-item-has-children > a.sub-active{
+      border-bottom: 6px solid #091327;
+      color: #fff;
+   }
+
    .socialicons-footer {
       width: 40%;
    }
-
+   
+   .logo img {
+      max-width: none;
+   }
    .logo-menu-mobile {
       display: inline;
       position: absolute;
@@ -114,6 +138,11 @@ Extra small devices (portrait phones, less than 576px)
 
    .btn-e-learning {
       font-size: 1.2em!important;
+   }
+
+   .logodark, .logowhite{
+      max-width: 64px;
+      max-height: 64px;
    }
    
 }

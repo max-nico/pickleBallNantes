@@ -6,7 +6,8 @@
 
 <div class="container-fluid regles">  
   <div class="row">
-  <?php if(!$index%2): ?>
+
+  <?php if(!$index%2) :?>
       <div class="content-image col-sm-6">
         <img src=<?= $value['img-regle']; ?> alt=<?= $value['titre-regle']; ?> class="img-thumbnail" >
       </div>
