@@ -6,7 +6,7 @@
 
 <div class="container-fluid regles">  
   <div class="row">
-  <?php if(!$index%2): ?>
+  <?php if(!$index%2 && isset($_GET['width']) <= 768) :?>
       <div class="content-image col-sm-6">
         <img src=<?= $value['img-regle']; ?> alt=<?= $value['titre-regle']; ?> class="img-thumbnail" >
       </div>

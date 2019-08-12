@@ -46,7 +46,7 @@
             <?php endforeach ?>
         </ul>
     </div>
-    <img class="img-fluid line" src="lines.svg" alt="" srcset="">
+    <img class="img-fluid line" src="lines.svg" alt="ligne du menu" srcset="">
 </nav>
 
 
