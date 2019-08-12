@@ -68,6 +68,14 @@
             //   }
             // }
             document.querySelector('.logo-pickle').innerHTML += logoSection;
+            const navMenu = document.querySelector('.navbar-fixed-top');
+            const logSpan = document.createElement("span")
+            const loginBtn = document.querySelector('.bp-login-nav');
+            const signUp = document.querySelector('.menu-item-4375');
+            logSpan.className = "logins-block"
+            navMenu.appendChild(logSpan);
+            logSpan.appendChild(loginBtn);
+            logSpan.appendChild(signUp);
           // insertion du logo dans la balise liste .logo-pickle
       // if(window.matchMedia("(max-width: 781px)")){
       // }

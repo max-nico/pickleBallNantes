@@ -8,7 +8,7 @@ Extra small devices (portrait phones, less than 576px)
 }
 
 .menu-transparent .nav-icon3 span {
-   background: #000; 
+   background: #000;
 }
 
 
@@ -16,63 +16,77 @@ Extra small devices (portrait phones, less than 576px)
 
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1170px) {
-    /* TODO: BBPRESS Nico 01/07/2019 */
- .txt-forums-header h1,.txt-forums-header h2,.txt-forums-header h3{
-   width: 100%;
-   max-width: none;
-   font-size: 16px;
+
+   /* TODO: BBPRESS Nico 01/07/2019 */
+   .logo img {
+      max-width: 100%;
    }
-   .txt-forums-header p{
-   width: 100%;
-   max-width: none;
-   font-size: 12px;
+
+   .txt-forums-header h1,
+   .txt-forums-header h2,
+   .txt-forums-header h3 {
+      width: 100%;
+      max-width: none;
+      font-size: 16px;
    }
-   .txt-forums-header{
-   display: block;
-    height: auto;
-    width: 80%;
-    margin: auto;
-    position:initial;
+
+   .txt-forums-header p {
+      width: 100%;
+      max-width: none;
+      font-size: 12px;
    }
-   .img-bk-forums{
+
+   .txt-forums-header {
+      display: block;
+      height: auto;
+      width: 80%;
+      margin: auto;
+      position: initial;
+   }
+
+   .img-bk-forums {
       position: relative;
       overflow: hidden;
    }
+
    .roundboxforums {
       min-height: 155px;
       min-width: 155px;
-  }
-  .titlecount {
+   }
+
+   .titlecount {
       font-size: 15px;
-  }
-  .countnumbers {
+   }
+
+   .countnumbers {
       font-size: 24px;
-  }  
+   }
 
-  .block-learning{
-   margin-top: 11%;
-}
+   .block-learning {
+      margin-top: 11%;
+   }
 
-.post-set{
-   width:100%;
-}
+   .post-set {
+      width: 100%;
+   }
 
-.swiper-slide iframe{
-   width : 40%;   
+   .swiper-slide iframe {
+      width: 40%;
+   }
 }
 
 
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
 
-   .burger_insomnia_menu_overlay_normal .burger_insomnia_main_menu a:hover, 
-   .burger_insomnia_menu_overlay_normal li.current-menu-item > a{
+   .burger_insomnia_menu_overlay_normal .burger_insomnia_main_menu a:hover,
+   .burger_insomnia_menu_overlay_normal li.current-menu-item>a {
       border-bottom: 6px solid #74151C;
       color: #fff;
       transition: 0;
    }
-   
-   .burger_insomnia_menu_overlay_normal .burger_insomnia_main_menu li.menu-item-has-children > a.sub-active{
+
+   .burger_insomnia_menu_overlay_normal .burger_insomnia_main_menu li.menu-item-has-children>a.sub-active {
       border-bottom: 6px solid #091327;
       color: #fff;
    }
@@ -80,71 +94,75 @@ Extra small devices (portrait phones, less than 576px)
    .socialicons-footer {
       width: 40%;
    }
-   
+
    .logo img {
       max-width: none;
    }
+
    .logo-menu-mobile {
       display: inline;
       position: absolute;
       max-width: 100px;
       max-height: 100px
    }
-   .logo{
+
+   .logo {
       max-width: 128px;
       max-height: 128px;
    }
-   .block-learning{
+
+   .block-learning {
       width: 95%;
       margin: 11% auto auto auto;
       position: relative;
    }
-   
-   .field-learning h2{
-     font-size: 1.2em;
+
+   .field-learning h2 {
+      font-size: 1.2em;
    }
-   
-   .swiper-slide iframe{
+
+   .swiper-slide iframe {
       width: 100%;
       height: 100%;
    }
-   
-   .block-learning{
+
+   .block-learning {
       margin-top: 12%;
    }
 }
 
 @media(max-width: 781px) {
-   
+
    /* TODO: Learning pages Max 01/07/2019 */
-   
+
    .main-content {
       padding: 0;
    }
-   
+
    .ult-video {
       width: 150%;
       margin: 0% -25%;
       padding: 0
    }
 
-   .field-learning h2{
+   .field-learning h2 {
       font-size: 1.1em;
    }
 
-   .block-learning{
+   .block-learning {
       margin-top: 16%;
    }
 
    .btn-e-learning {
-      font-size: 1.2em!important;
+      font-size: 1.2em !important;
    }
 
-   .logodark, .logowhite{
+   .logodark,
+   .logowhite {
       max-width: 64px;
       max-height: 64px;
    }
-   
+
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -153,60 +171,93 @@ Extra small devices (portrait phones, less than 576px)
       margin: auto;
       padding-bottom: 10px;
    }
-   
+
    .socialicons-footer {
       width: 80%;
    }
-   
-   .logo{
+
+   .logo {
       max-width: 64px;
       max-height: 64px;
    }
-   
-   
-   .block-learning{
+
+
+   .block-learning {
       margin-top: 20%;
    }
-   input[type="submit"]{ width:50%;}
+
+   input[type="submit"] {
+      width: 50%;
+   }
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-   h1{
-      font-size:18px;
+   h1 {
+      font-size: 18px;
    }
-   h2{
-      font-size:17px;
+
+   h2 {
+      font-size: 17px;
    }
-   h3{font-size: 16px;}
-   h4{font-size: 15px;}
-   h5,h6{font-size:14px;}
+
+   h3 {
+      font-size: 16px;
+   }
+
+   h4 {
+      font-size: 15px;
+   }
+
+   h5,
+   h6 {
+      font-size: 14px;
+   }
+
    .roundboxforums {
       min-height: 95px;
       min-width: 95px;
-      padding:0;
+      padding: 0;
       padding-top: 15px;
-  }
-  .titlecount {
+   }
+
+   .titlecount {
       font-size: 9px;
-  }
-  .countnumbers {
+   }
+
+   .countnumbers {
       font-size: 12px;
-  }
-  .iconforum img, .iconsujets img, .iconresponse img {
+   }
+
+   .iconforum img,
+   .iconsujets img,
+   .iconresponse img {
       width: 25px;
       height: 25px;
-  }
-  .forum-block {
-      padding: 5px; 
-  }
-  .subway-login-form{
-   width: 100%;
-  }
-  .img-register img{width:100%;}
-  .buddypress-wrap .standard-form input:not(.button-small), .buddypress-wrap .standard-form textarea{width:100%;}
-  .buddy-btn-submit .submit #signup_submit{width:95%;}
-  .block-learning{
-   margin-top: 22%;
-}
+   }
+
+   .forum-block {
+      padding: 5px;
+   }
+
+   .subway-login-form {
+      width: 100%;
+   }
+
+   .img-register img {
+      width: 100%;
+   }
+
+   .buddypress-wrap .standard-form input:not(.button-small),
+   .buddypress-wrap .standard-form textarea {
+      width: 100%;
+   }
+
+   .buddy-btn-submit .submit #signup_submit {
+      width: 95%;
+   }
+
+   .block-learning {
+      margin-top: 22%;
+   }
 }
