@@ -13,7 +13,7 @@
               <?php if(get_theme_mod('insomnia_logo') == true) { ?>
                 <div class="logo"><a href="<?php echo esc_url(home_url('/')); ?>"><?php echo get_theme_mod('insomnia_logo_text', esc_html__( 'Insomnia', 'insomnia' )); ?></a></div>
               <?php  } ?> 
-          <?php } ?>;
+          <?php } ?>
           </div>
             <div class="menu-responsive desktop">
               <div class="menu-center">

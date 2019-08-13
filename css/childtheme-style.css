@@ -72,7 +72,9 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
     max-height: 85px;
 }
 
-
+.menu-center .navbar-collapse #menu-main-menu #menu-item-4375 {
+    display: none;
+}
 
 /*TODO: e-learning carousel 04/07/2019 */
 .block-learning {
@@ -264,33 +266,33 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
 }
 
 /* TODO: buttons connexion style 12/08/2019 maxime */
-/* .nav > li.bp-login-nav{
-    right: 0;
-    height: 25px;
-}
-.nav > li.menu-item-4375, .nav > li.bp-login-nav{
-    position: absolute;
-    padding: 0;
-    margin: 0;
-}
-.menu-item-4375  a, .bp-login-nav a{
-    background-color: #74151C;
-    color: #fff!important;
-    padding: 0;
-    margin: 0;
-}
-.menu-item-4375  a:hover, .bp-login-nav a:hover{
-    background-color: #091327!important;
-    color: #fff!important;
-} */
 
-.logins-block li > a{
+.top-nav-collapse > div > div > div > div.menu-responsive.desktop .logins-block li > a{
+    padding: 3px;
+    font-size: .7em;
+    margin: 1px;
+}
+
+.desktop .logins-block li{
+    float: left;
+    list-style: none;
+}
+
+.desktop .logins-block{
+    position: absolute;
+    float: left;
+    top: 0;
+    right: -2em;
+}
+
+.desktop .logins-block li > a{
     background-color: #74151C;
     color: #fff!important;
     padding: 6px;
     margin: 0;
+    font-size: 1em;
 }
-.logins-block li > a:hover{
+.desktop .logins-block li > a:hover{
     color: #fff!important;
     background-color: #091327!important;
 }
@@ -446,6 +448,7 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
 .bp-navs ul li span {
     font-family: "MERRIWEATHERSANS-BOLD" !important;
 }
+
 
 /*CONTACT */
 .block-contact {
