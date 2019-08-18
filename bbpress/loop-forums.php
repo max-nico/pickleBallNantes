@@ -58,4 +58,11 @@
 
 <script type='text/javascript'>
 	countforums();
+	countTopix('.bbp-forum-status-open .bbp-forum-topic-count', '.circlesujets .countnumbers');
+	var childNodes = document.querySelector('.circleresponse').childNodes;
+	console.log(childNodes);
+	childNodes[1].className = "countnumbers";
+	const fChildCircleReplies = document.querySelector('.circleresponse');
+	console.log(fChildCircleReplies);
+	countTopix('.bbp-forum-status-open .bbp-forum-reply-count', '.circleresponse .countnumbers');
 </script>

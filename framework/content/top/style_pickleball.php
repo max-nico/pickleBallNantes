@@ -7,21 +7,12 @@
         <ul class="navbar-nav">
             <?php wp_get_nav_menu_items($menu, $value = array());?>
             <?php foreach ($menu as $key => $value):?>
-            <!-- <li class="nav-item mx-4 mt-4">
-                <a class="nav-link " href="#"><?=$value?></a>
-            </li> -->
+            <?=$value?></a>
             <?php wp_nav_menu( array( 
             'theme_location' => 'my-custom-menu', 
             'menu_class' => 'nav-item mx-4 mt-4',
             'sort_column' => 'menu_order' ) );
-            /*wp_nav_menu( array(
-                        'theme_location' => 'menu',
-                        'container' => 'container-fluid',
-                        'menu_class' => 'nav navbar-nav',
-                        'sort_column' => 'menu_order',
-                        'walker' => new Insomnia_My_Walker_Nav_Menu(),
-                        'fallback_cb' => 'insomnia_MenuFallback'
-                      ));*/?>
+            ?>
             <?php if($key >= sizeof($menu)/2 -1 && $key <= sizeof($menu)/2 - 1): ?>
                 <?php if(get_theme_mod('insomnia_logo_image', 'enable') == true) : ?>
                 <div class="logo">
@@ -49,16 +40,6 @@
     <img class="img-fluid line" src="lines.svg" alt="ligne du menu" srcset="">
 </nav>
 
-
-
-
-
-
-
-
-
-
-
 <!-- // real code -->
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
 <div class="container-fluid">
@@ -69,28 +50,13 @@
         <span class="icon-bar"></span> 
       </button>
       </div>
-    
-    <!-- <ul class="navbar-nav"> -->
-            <!-- <li class="nav-item mx-4 mt-4">
-                <a class="nav-link " href="#"><?=$value?></a>
-            </li> -->
+      <?=$value?>
             <?php wp_nav_menu( array( 
               'theme_location' => 'my-custom-menu',
               'container_class' => 'collapse navbar-collapse justify-content-center',
               'container_id' => 'navbarNav',
               'menu_class' => 'nav navbar-nav'
             ));
-            wp_get_nav_menu_items($menu, $value = array());
-            
-          /*wp_nav_menu( array(
-            'theme_location' => 'menu',
-            'container' => 'container-fluid',
-            'menu_class' => 'nav navbar-nav',
-            'sort_column' => 'menu_order',
-                'walker' => new Insomnia_My_Walker_Nav_Menu(),
-                'fallback_cb' => 'insomnia_MenuFallback'
-              ));*/?>
-      <!-- </ul> -->
-    <!-- <img class="img-fluid line" src="lines.svg" alt="" srcset=""> -->
+            wp_get_nav_menu_items($menu, $value = array());?>
 </nav>
 </div>

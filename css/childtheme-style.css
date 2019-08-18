@@ -8,6 +8,7 @@
     color: #091327;
 }
 
+
 .navbar-custom.top-nav-collapse{
     background-color: #ffffff00;
 }
@@ -474,10 +475,12 @@ input[type="submit"] {
     background: #091327;
     color: white;
     padding: 5px;
-    width: 35%;
     border-radius: 25px;
     text-align: center;
     font-size: 18px;
+}
+#bbp_search:focus {
+    border: 2px solid #091327;
 }
 
 input[type="submit"]:hover {

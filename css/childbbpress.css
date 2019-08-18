@@ -13,6 +13,16 @@ Childstyle.css MaxNico
 .main-forums,.bbpress,.tag_line_title{
     background: white;
 }
+
+#bbpress-forums #bbp-search-form #bbp_search:focus{
+    border: 2px solid #091327!important;
+    border-radius: 2px;
+    transition: .2s ease-in;
+}
+
+.forum-titles * {
+    color: white;
+}
 .main-forums{
     margin-top: 105px;
 }

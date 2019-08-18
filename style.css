@@ -60,6 +60,10 @@ p{
     font-family: "MERRIWEATHERSANS-REGULAR";
 }
 
+li {
+    font-family: "MERRIWEATHERSANS-BOLD";
+}
+
 html, body{
     margin: 0%;
     padding: 0;

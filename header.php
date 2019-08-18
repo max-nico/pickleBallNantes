@@ -76,7 +76,6 @@
             navMenu.appendChild(logSpan);
             logSpan.appendChild(loginBtn);
             logSpan.appendChild(signUp);
-
           // insertion du logo dans la balise liste .logo-pickle
       // if(window.matchMedia("(max-width: 781px)")){
       // }
