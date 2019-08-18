@@ -31,7 +31,3 @@ let countTopix = (parent, child) => {
             document.querySelector(child).innerHTML = numberOf;
     }, 150);
 };
-
-document.querySelectorAll('a').forEach(element => {
-    element.classList.add('okcestbon');
-})

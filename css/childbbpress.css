@@ -172,6 +172,41 @@ max-width: 37%;
 .bbp-footer{
     display:none;
 }
+
+.bp-navs {
+    background-color: #ffffff00!important;
+}
+
+.bp-personal-sub-tab{
+    border: 1px solid #74151C;
+}
+
+.bp-personal-tab:hover{
+    background-color: #ffffff00!important;
+}
+.bp-personal-sub-tab.current.selected{
+    border: 2px solid #74151C;
+    box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.5);
+    text-decoration-line: none!important;
+}
+
+.buddypress-wrap.bp-vertical-navs .main-navs.user-nav-tabs ul li.selected{
+    border-top: 2px solid #74151C;
+    border-bottom: 2px solid #74151C;
+    border-right-color: #fff;
+}
+
+.bp-personal-sub-tab.current.selected a{
+    text-decoration-line: none!important;
+}
+
+.sidebar-left .wrap-content, .single .sidebar-left .wrap-content {
+    padding: 0;
+    border: 2px solid #74151C;
+}
+.bp-single-vert-nav .item-body:not(#group-create-body) {
+    border-left: 1px solid #74151C;
+}
 /*
 TODO: ADD Bootstrap layout overview Queries NICO le 05/05/2019
 Extra small devices (portrait phones, less than 576px)

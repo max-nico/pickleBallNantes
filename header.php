@@ -59,14 +59,7 @@
             const li = document.createElement('li');
             li.setAttribute('class', 'logo-pickle');
             const ul = document.querySelector('.navbar-nav');
-            //FIXME: Je lui ai donné une position en dur à cause des subMenu qui bloquent le parcours, je reviendrai dessus 
-            //parcour de la liste des elements du menu pour trouver le bon emplacement
-            // for (let index = 0; index < menuItem.length; index++) {
-            //   if(index >= menuItem.length/2 && index <= menuItem.length/2 ){
-                ul.insertBefore(li, document.getElementById("menu-item-4166"));     
-            //     // ul.appendChild(li) 
-            //   }
-            // }
+            ul.insertBefore(li, document.getElementById("menu-item-4166"));     
             document.querySelector('.logo-pickle').innerHTML += logoSection;
             const navMenu = document.querySelector('.desktop');
             const logSpan = document.createElement("span")

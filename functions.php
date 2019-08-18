@@ -45,3 +45,5 @@ function rk_bbp_topic_stats() {
 }
 
 add_shortcode('bbp-topic-stats', 'rk_bbp_topic_stats'); 
+?>
+
