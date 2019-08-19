@@ -186,6 +186,7 @@ max-width: 37%;
 }
 .bp-personal-sub-tab.current.selected{
     border: 2px solid #74151C;
+    border-bottom-width: 1px;
     box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.5);
     text-decoration-line: none!important;
 }
@@ -206,6 +207,14 @@ max-width: 37%;
 }
 .bp-single-vert-nav .item-body:not(#group-create-body) {
     border-left: 1px solid #74151C;
+}
+
+#bbp_topics_widget-2 ul li{
+    margin: 1em 0;
+}
+
+#bbp_topics_widget-2 ul li:last-child {
+    margin-bottom: 0!important;
 }
 /*
 TODO: ADD Bootstrap layout overview Queries NICO le 05/05/2019

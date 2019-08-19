@@ -159,6 +159,4 @@ $('.insomnia_cart_widget').hover(function(){
 }, function(){
 	$(this).removeClass('insomnia_visible')
 });
-
-
 });

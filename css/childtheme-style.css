@@ -411,6 +411,9 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
 }
 
 .insomnia_rating-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     text-align: center;
 }
 
@@ -426,8 +429,11 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
     border-color: #74151C;
     border-radius: 25px;
     text-align: center;
-    width: 40%;
-    margin: auto;
+    width: 75%;
+    margin: 6px auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .woocommerce .products .product .button:hover {
@@ -496,6 +502,15 @@ input[type="submit"]:hover {
     color: black;
 }
 
+.insomnia_product-details-container {
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    background-color: #ffffffb7;
+    border: 1px solid #091327;
+    padding-top: .5em;
+}
+
 .woocommerce-Price-amount,
 .woocommerce-Price-currencySymbol {
     color: black;
@@ -537,9 +552,35 @@ input[type="submit"]:hover {
     width: 80%;
 }
 
+.product-images {
+    position: inherit;
+}
+
 .woocommerce .products .product .onsale {
     background: #74151C;
     width: 22%;
+}
+
+.insomnia_single_image {
+    height: 100%;
+    width: 100%;
+}
+
+.insomnia_product-wrap {
+    overflow: hidden;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.insomnia_product-details {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
 }
 
 /*PORTFOLIO*/
