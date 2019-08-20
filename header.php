@@ -69,9 +69,20 @@
             navMenu.appendChild(logSpan);
             logSpan.appendChild(loginBtn);
             logSpan.appendChild(signUp);
-          // insertion du logo dans la balise liste .logo-pickle
-      // if(window.matchMedia("(max-width: 781px)")){
-      // }
+
+            const parentNavItems = document.querySelectorAll('.menu-item a');
+            parentNavItems.forEach(element => {
+              element.setAttribute('onclick', 'clickOnParentNavActive()')
+            });
+
+            const clickOnParentNavActive = () => {
+              const subMenu = document.querySelector('a.sub-active')              
+              const link = subMenu.getAttribute('href')
+                subMenu.addEventListener('click', () => {
+                  window.open(link, "_self")
+                })
+            }
+            
     </script>
 	</div>
 <?php if(!is_search()) {?>
