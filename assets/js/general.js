@@ -3,7 +3,7 @@ let countforums = () => {
     let numberOf = 0
     setInterval(() => {
         if (numberOf != forumCounter)
-        numberOf++;
+            numberOf++;
         document.getElementById('countForums').innerHTML = `${numberOf}`;
     }, 150);
 }
@@ -28,6 +28,12 @@ let countTopix = (parent, child) => {
     setInterval(() => {
         if (numberOf != sum)
             numberOf++;
-            document.querySelector(child).innerHTML = numberOf;
+        document.querySelector(child).innerHTML = numberOf;
     }, 150);
+};
+
+let createAttribute = (item, attr, fun) => {
+    document.querySelectorAll(item).forEach(element => {
+        element.setAttribute(attr, fun)
+    });
 };
