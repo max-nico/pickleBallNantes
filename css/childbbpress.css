@@ -20,7 +20,7 @@ Childstyle.css MaxNico
     transition: .2s ease-in;
 }
 
-.forum-titles * {
+.forum-titles * , .bbp-header *{
     color: white;
 }
 .main-forums{
@@ -186,6 +186,7 @@ max-width: 37%;
 }
 .bp-personal-sub-tab.current.selected{
     border: 2px solid #74151C;
+    border-bottom-width: 1px;
     box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.5);
     text-decoration-line: none!important;
 }
@@ -202,10 +203,17 @@ max-width: 37%;
 
 .sidebar-left .wrap-content, .single .sidebar-left .wrap-content {
     padding: 0;
-    border: 2px solid #74151C;
 }
 .bp-single-vert-nav .item-body:not(#group-create-body) {
     border-left: 1px solid #74151C;
+}
+
+#bbp_topics_widget-2 ul li{
+    margin: 1em 0;
+}
+
+#bbp_topics_widget-2 ul li:last-child {
+    margin-bottom: 0!important;
 }
 /*
 TODO: ADD Bootstrap layout overview Queries NICO le 05/05/2019
@@ -241,6 +249,21 @@ Extra small devices (portrait phones, less than 576px)
  
  /* Small devices (landscape phones, less than 768px)*/
  @media (max-width: 767.98px) {
+    .headertabforum {
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .bbp-forum-title, .bbp-forum-topic-count, .bbp-forum-reply-count{
+        font-size: 14px!important;
+    }
+    .bbp-forum-freshness *{
+        font-size:10px!important;
+        text-align: right!important;
+    }
+    #bbpress-forums .bbp-forum-info .bbp-forum-content{
+        font-size: 10px!important;
+    }
  }
  
  /*Extra small devices (portrait phones, less than 576px)*/
