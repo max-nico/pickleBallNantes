@@ -41,6 +41,14 @@
     ?>
     <!-- TODO: Gesetion de l'emplace ment du logo  -->
     <script type="text/javascript">
+      const clickOnParentNavActive = () => {
+        const subMenu = document.querySelector('a.sub-active')
+        const link = subMenu.getAttribute('href')
+        subMenu.addEventListener('click', () => {
+          window.open(link, "_self")
+        })
+      }
+      createAttribute('.menu-item-has-children a', 'onclick', 'clickOnParentNavActive()');
       let menuItem = document.querySelectorAll('.collapse #menu-main-menu .nav-item');
       //les logo par wordpress copier depuis style1.php
       let logoSection = 
@@ -69,20 +77,6 @@
             navMenu.appendChild(logSpan);
             logSpan.appendChild(loginBtn);
             logSpan.appendChild(signUp);
-
-            const parentNavItems = document.querySelectorAll('.menu-item a');
-            parentNavItems.forEach(element => {
-              element.setAttribute('onclick', 'clickOnParentNavActive()')
-            });
-
-            const clickOnParentNavActive = () => {
-              const subMenu = document.querySelector('a.sub-active')              
-              const link = subMenu.getAttribute('href')
-                subMenu.addEventListener('click', () => {
-                  window.open(link, "_self")
-                })
-            }
-            
     </script>
 	</div>
 <?php if(!is_search()) {?>
