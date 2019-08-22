@@ -117,8 +117,20 @@ document.querySelectorAll('.insomnia_product-details-container .insomnia_product
         element.style.width  = "124.05px";
     }
 });
-document.querySelectorAll('.product').forEach(element => {
-    element.classList.remove('col-md-3');
-    element.classList.add('col-md-4');
-});
+// document.querySelectorAll('.product').forEach(element => {
+//     element.classList.remove('col-md-3');
+//     element.classList.add('col-md-4');
+// });
+const div = document.createElement('div');
+const productsRow = document.querySelector('.products.row');
+productsRow.insertBefore(div, document.querySelector('.product'));
+div.className += "products-cat-container col-md-2";
+const productsCatContainer = document.querySelector('.products-cat-container');
+const productCat = document.querySelectorAll('.product-category.product');
+for (let i = 0; i < productCat.length; i++) {
+    productsCatContainer.appendChild(productCat[i]);
+    productCat[i].classList.remove('col-md-3');
+};
+
+
 </script>

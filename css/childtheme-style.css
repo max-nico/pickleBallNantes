@@ -328,6 +328,24 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
     border: 2px solid #74151C;
 }
 
+.content_woo{
+    margin-top: 10%;
+}
+
+.pan {
+    position: absolute;
+    width: 105px;
+    height: 40px;
+    background-color: #091327;
+    border-radius: 25px;
+    top: -50px;
+    right: 25px;
+}
+
+.pan-sidebar {
+    display: none;
+}
+
 .woocommerce ul.cart_list li img,
 .woocommerce ul.product_list_widget li img {
     float: none;

@@ -72,3 +72,4 @@ $classes[] = 'col-md-3';
 	 */
 	do_action( 'woocommerce_after_subcategory', $category ); ?>
 </div>
+

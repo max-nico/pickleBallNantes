@@ -89,7 +89,7 @@
       <?php } elseif (class_exists( 'bbPress' ) && is_bbpress() ){?> 
     <div class="tag_line forums">
       <?php } elseif (class_exists( 'WooCommerce' ) && is_woocommerce() ){?> 
-    <div class="tag_line woo">
+    <div class="content_woo">
       <?php } elseif(!is_page()) {?>
     <div class="tag_line none">
       <div class="tag-body">
