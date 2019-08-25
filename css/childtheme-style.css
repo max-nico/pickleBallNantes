@@ -227,6 +227,10 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
     margin-bottom: 35px;
 }
 
+.sidebar aside *{
+    color: #fff;
+}
+
 .sidebar .widget-title:after {
     content: '';
     position: absolute;
@@ -333,17 +337,77 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
 }
 
 .pan {
-    position: absolute;
+    display: inline-block;
+    position: fixed;
     width: 105px;
     height: 40px;
     background-color: #091327;
     border-radius: 25px;
-    top: -50px;
-    right: 25px;
+    top: 110px;
+    left: 26px;
+}
+
+.pan::before {
+    content: "panier";
+    color: white;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "CA";
+}
+
+.panProductsCount {
+    font-family: "CA";
+    width: 20px;
+    height: 20px;
+    color: red;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 25px;
+    font-family: "MERRIWEATHERSANS-REGULAR" !important;
+    transform: translate(30%, -40%);
+    text-align: center;
+    border: 1px solid #091327;
+}
+
+.panProductsCount .textcount {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .pan-sidebar {
-    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #091327ec;
+}
+
+.close-sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+}
+
+.close-sidebar span{
+    position: absolute;
+    width: 2px;
+    height: 35px;
+    transform: rotate(45deg);
+    left: 50%;
+    background: white;
+}
+
+.close-sidebar span:first-child{
+    transform: rotate(135deg);
 }
 
 .woocommerce ul.cart_list li img,

@@ -1,8 +1,4 @@
 <?php get_header(); ?>
-<div class="pan">
-    <img src="./themes/pickleball/assets/images/icones/add-to-cart.png" alt="voir le panier">
-      <span class="panProductsCount"></span>
-</div>
 <div class="container-fluid" id="boutique-home">
     <div class="row">
         <?php $layout_value = get_theme_mod( 'insomnia_woo_sidebars', 'sidebar-no' ); ?>

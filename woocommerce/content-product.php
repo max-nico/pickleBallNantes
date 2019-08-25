@@ -130,7 +130,9 @@ const productCat = document.querySelectorAll('.product-category.product');
 for (let i = 0; i < productCat.length; i++) {
     productsCatContainer.appendChild(productCat[i]);
     productCat[i].classList.remove('col-md-3');
+    productCat[i].classList.add('col-sm-6');
 };
 
+    
 
 </script>
