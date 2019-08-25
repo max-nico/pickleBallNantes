@@ -29,12 +29,11 @@ pan.addEventListener('click', () => {
 document.querySelector('.close-sidebar').addEventListener('click', () => {
 	panSidebar.style.visibility = "hidden";
 })
-let sideBarQuantity = document.querySelector('.product_list_widget')
+let sideBarQuantity = document.querySelector('.woocommerce-mini-cart')
 let quantity = document.querySelectorAll('.quantity')
 sideBarQuantity.addEventListener('change', () => {
-	quantity.forEach(element => {
-		console.log(element.text);
-	});
+	console.log("change");
+	
 })
 </script>
 <!-- #content -->
