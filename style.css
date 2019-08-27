@@ -89,14 +89,14 @@ html, body{
     left: -10000px;
 }
 
-#canvas{
-    margin-top: 3em; 
-    border: 1px solid green;
+#canvas {
+    z-index: 1;
+    background : url(./assets/images/terrain.png) no-repeat;
     width: 100%;
-    height: 100%;
-    /* background: url('/terrain.jpg') no-repeat; */
+    height: 95%;
     background-size: cover;
 }
+
 #bbpress-forums li.bbp-header {
     background: #ef172f !important;
 }
@@ -204,4 +204,3 @@ SIDEBAR
 /////////////////////////////////*/
 .soc-footer li a{color:rgb(9, 19, 39)!important;}
 .soc-footer li a:hover{background: #74151c; opacity:0.7;transition: 0.9s;color:white!important;padding:5px;border-radius:15px;}
-
