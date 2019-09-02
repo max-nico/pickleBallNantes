@@ -35,6 +35,7 @@ bp_nouveau_before_loop(); ?>
 						<h2 class="list-title member-name">
 							<a href="<?php bp_member_permalink(); ?>"><?php bp_member_name(); ?></a>
 						</h2>
+						<div>HELLO</div>
 							<!--Show fields in members loop-->
 						<?php $value = xprofile_get_field( 522, bp_get_member_user_id(), true ); ?>
 								<?php $value = $value->data->value; ?>
