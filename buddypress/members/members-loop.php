@@ -35,7 +35,36 @@ bp_nouveau_before_loop(); ?>
 						<h2 class="list-title member-name">
 							<a href="<?php bp_member_permalink(); ?>"><?php bp_member_name(); ?></a>
 						</h2>
+						<div>HELLO 333</div>
+							<!--Show fields in members loop-->
+						<?php $value = xprofile_get_field( 522, bp_get_member_user_id(), true ); ?>
+								<?php $value = $value->data->value; ?>
+									<?php if ( $value ) : ?>
+										<p class="item-details niveau-pickle"><?php echo $value; ?></p><!-- #item-details -->
+									<?php endif; ?>
+						<?php $value = xprofile_get_field( 521, bp_get_member_user_id(), true ); ?>
+								<?php $value = $value->data->value; ?>
+									<?php if ( $value ) : ?>
+										<p class="item-details name"><?php echo $value; ?></p>
+										<!-- #item-details -->
+									<?php endif; ?>
+						<?php $value = xprofile_get_field( 531, bp_get_member_user_id(), true ); ?>
+								<?php $value = $value->data->value; ?>
+									<?php if ( $value ) : ?>
+										<p class="item-details club"> <?php echo $value; ?></p><!-- #item-details -->
+									<?php endif;/* ?>
+						<?php $value = xprofile_get_field( 25, bp_get_member_user_id(), true ); ?>
+								<?php $value = $value->data->value; ?>
+									<?php if ( $value ) : ?>
+										<p class="item-details infotéléphone2"><span class="infosmembers">Téléphone mobile :</span><?php echo '</br>' . $value; ?></p><!-- #item-details -->
+									<?php endif; ?>
 
+						<?php $value = xprofile_get_field( 14, bp_get_member_user_id(), true ); ?>
+								<?php $value = $value->data->value; ?>
+									<?php if ( $value ) : ?>
+										<p class="item-details email"><?php echo $value; ?></p><!-- #item-details -->
+									<?php endif; */?>
+						<!-- end of show details-->
 						<?php if ( bp_nouveau_member_has_meta() ) : ?>
 							<p class="item-meta last-activity">
 								<?php bp_nouveau_member_meta(); ?>
