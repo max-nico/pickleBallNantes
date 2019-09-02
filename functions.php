@@ -45,3 +45,36 @@ function rk_bbp_topic_stats() {
 }
 
 add_shortcode('bbp-topic-stats', 'rk_bbp_topic_stats'); 
+
+function my_custom_ids( $field_name, $field_value = '' ) {
+  
+  if ( empty( $field_name ) )
+    return '';
+  
+  global $wpdb;
+  
+  $field_id = xprofile_get_field_id_from_name( $field_name ); 
+ 
+  if ( !empty( $field_id ) ) 
+    $query = "SELECT user_id FROM " . $wpdb->prefix . "bp_xprofile_data WHERE field_id = " . $field_id;
+  else
+   return '';
+  
+  if ( $field_value != '' ) 
+    $query .= " AND value LIKE '%" . $field_value . "%'";
+      /* 
+      LIKE is slow. If you're sure the value has not been serialized, you can do this:
+      $query .= " AND value = '" . $field_value . "'";
+      */
+  
+  $custom_ids = $wpdb->get_col( $query );
+  
+  if ( !empty( $custom_ids ) ) {
+    // convert the array to a csv string
+    $custom_ids_str = 'include=' . implode(",", $custom_ids);
+    return $custom_ids_str;
+  }
+  else
+   return '';
+   
+}
