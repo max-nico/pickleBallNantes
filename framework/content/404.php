@@ -6,8 +6,8 @@
             </p>
           </div>.entry-content -->
           <canvas id="canvas"></canvas>
-          <img src="/ball.svg" alt="ball" id="ball">
-          <script src="../themes/pickleball/assets/js/picklepong.js" type="module"></script>
+          <img src="../pickleball/assets/images/ball.svg" alt="ball" id="ball">
+          <script src="../pickleball/assets/js/picklepong.js" type="module"></script>
         </div>
         <script>
         const container =  document.querySelector('.main-content .container');
