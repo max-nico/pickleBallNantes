@@ -212,3 +212,53 @@ SIDEBAR
     background-size: cover;
     background-position-x: 50%;
 }
+
+#scorep1 {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    z-index: 1;
+    text-align: center;
+    font-family: 'CA'
+}
+
+#scorep2 {
+    position: absolute;
+    top: 1%;
+    left: 95%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    z-index: 1;
+    font-family: 'CA';
+    text-align: center;
+    color:white;
+}
+
+.icones {
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    z-index: 1;
+    transform: translate(-50%, -100%)
+}
+
+.icones a {
+    font-size: 3em;
+    color: white;
+    border: 2px solid white;
+    max-height: 70px;
+    max-width: 70px;
+    padding: 0 12px;
+    display: inline-block;
+    border-radius: 5em;
+    margin: 0 12px; 
+}
+
+#_404ToHome {
+    background: orange;
+}
+#_404ToForum {
+    background: #17B4EF;
+}
