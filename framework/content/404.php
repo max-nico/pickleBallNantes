@@ -6,8 +6,7 @@
             </p>
           </div>.entry-content -->
           <canvas id="canvas"></canvas>
-          <img src="../pickleball/assets/images/ball.svg" alt="ball" id="ball">
-          <script src="../pickleball/assets/js/picklepong.js" type="module"></script>
+          <img src="../../sitepickleBallNantes/wp-content/themes/pickleball/assets/images/ball.svg" alt="ball" id="ball">
         </div>
         <script>
         const container =  document.querySelector('.main-content .container');
@@ -17,6 +16,7 @@
         container.classList.add('container-fluid')
         
         </script>
+        <script src="../../sitepickleBallNantes/wp-content/themes/pickleball/assets/js/picklepong.js" type="module"></script>
 
         <style>
             .content-wrap {

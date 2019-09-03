@@ -157,16 +157,14 @@ if (canvas.getContext) {
 
     let upDateGame = () => {
         let speedPlayerTwo = 0.5
-        document.onkeypress = (e) =>{
-            if(e.keyCode == 32){
-                set = true
-            }
+        document.onclick = (e) =>{
+            set = true
         }
         document.onmousemove = (e) => {
             playerOne.y = e.clientY
             console.log(playerOne.y);
         }
-        playerTwo.y = ball.y * speedPlayerTwo
+        if (set) playerTwo.y = ball.y * speedPlayerTwo
         if (playerOne.y <= 0) {
             playerOne.y = 0
         } else if (playerOne.y > canvas.height - sizes.player.height) {
@@ -193,6 +191,7 @@ if (canvas.getContext) {
         playerOne.draw()
         playerTwo.draw()
         if(set)ballMove()
+        if (!set && ball.x == playerOne.x + playerOne.width / 2) ball.y = playerOne.y
     }
 
     setInterval(() => {
