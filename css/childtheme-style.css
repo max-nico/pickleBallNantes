@@ -369,6 +369,10 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
     margin-top: 0px;
 }
 
+.wrapper {
+    position: initial!important;
+}
+
 .post-set {
     float: left;
     width: 47%;

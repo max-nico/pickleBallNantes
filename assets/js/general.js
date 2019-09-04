@@ -36,4 +36,4 @@ let createAttribute = (item, attr, fun) => {
     document.querySelectorAll(item).forEach(element => {
         element.setAttribute(attr, fun)
     });
-};
+};  

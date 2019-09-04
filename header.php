@@ -4,13 +4,12 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="profile" href="http://gmpg.org/xfn/11">
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBFZTkrtNLmpc0AeGTUnLtqp5DEvPT1nc&callback=initMap"
-  type="text/javascript"></script>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <?php $allowed_html_array = wp_kses_allowed_html( 'post' )?>
   <?php if ( ! ( function_exists( 'has_site_icon' ) && has_site_icon() ) ) {?><link rel="shortcut icon" href="<?php echo esc_url(get_theme_mod('insomnia_logo_favicon', get_template_directory_uri() . '/assets/images/favicon.png')); ?>"> <?php };?>
   <?php if(get_theme_mod('insomnia_logo_favicon'))  : ?><link rel="apple-touch-icon" sizes="144x144" href="<?php echo esc_url(get_theme_mod('insomnia_logo_favicon', get_template_directory_uri() . '/assets/images/favicon.png')); ?>" /><?php endif; ?>
   <?php wp_head(); ?>
+  <meta name="google-site-verification" content="qbmSyme3pg-pXLkO-l9Or3JTu0HeOpFJcQaVXEX0zXc" />
 </head>
 <body <?php body_class(); ?>>
 <div id="preloader"><div id="status"></div></div>
@@ -20,64 +19,50 @@
 <?php
     $insomnia_menu_style = get_theme_mod( 'insomnia_menu_style', 'style8' );
     if ($insomnia_menu_style == 'style1') {
-      get_template_part( 'framework/content/top/style1');
+        get_template_part( 'framework/content/top/style1');
     } elseif ($insomnia_menu_style == 'style2') {
-      get_template_part( 'framework/content/top/style2');
+        get_template_part( 'framework/content/top/style2');
     } elseif ($insomnia_menu_style == 'style3') {
-      get_template_part( 'framework/content/top/style3');
+        get_template_part( 'framework/content/top/style3');
     } elseif ($insomnia_menu_style == 'style4') {
-      get_template_part( 'framework/content/top/style4');
+        get_template_part( 'framework/content/top/style4');
     } elseif ($insomnia_menu_style == 'style5') {
-      get_template_part( 'framework/content/top/style5');
+        get_template_part( 'framework/content/top/style5');
     } elseif ($insomnia_menu_style == 'style6') {
-      get_template_part( 'framework/content/top/style6');
+        get_template_part( 'framework/content/top/style6');
     } elseif ($insomnia_menu_style == 'style7') {
-      get_template_part( 'framework/content/top/style7');
+        get_template_part( 'framework/content/top/style7');
     } elseif ($insomnia_menu_style == 'style8') {
-      get_template_part( 'framework/content/top/style8');   
+        get_template_part( 'framework/content/top/style8');   
     } else {
-      get_template_part( 'framework/content/top/style8');
+        get_template_part( 'framework/content/top/style8');
     }
-    ?>
-    <!-- TODO: Gesetion de l'emplace ment du logo  -->
+?>
+
+<!-- TODO: Gesetion de l'emplace ment du logo  -->
     <script type="text/javascript">
-      const clickOnParentNavActive = () => {
-        const subMenu = document.querySelector('a.sub-active')
-        const link = subMenu.getAttribute('href')
-        subMenu.addEventListener('click', () => {
-          window.open(link, "_self")
-        })
-      }
-      createAttribute('.menu-item-has-children a', 'onclick', 'clickOnParentNavActive()');
       let menuItem = document.querySelectorAll('.collapse #menu-main-menu .nav-item');
       //les logo par wordpress copier depuis style1.php
       let logoSection = 
         `<?php if(get_theme_mod('insomnia_logo_image', 'enable') == true)  { ?>
               <div class='logo'>
-                <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php bloginfo( 'name' ); ?>" rel="home"><img src="<?php echo esc_url(get_theme_mod('insomnia_logo_upload', get_template_directory_uri() . '/assets/images/BadgeElephantOriginal.svg')); ?>" data-rjs="<?php echo esc_url(get_theme_mod('insomnia_retina_logo_upload',get_template_directory_uri() . '/assets/images/logo@2x.png')); ?>" class="logowhite" alt="<?php bloginfo( 'name' ); ?>" />
-                  <img src="<?php echo esc_url(get_theme_mod('insomnia_logo_dark_upload', get_template_directory_uri() . '/assets/images/BadgeElephantOriginal.svg')); ?>" data-rjs="<?php echo esc_url(get_theme_mod('insomnia_retina_logo_dark_upload',get_template_directory_uri() . '/assets/images/logo@2x.png')); ?>" class="logodark" alt="<?php bloginfo( 'name' ) ?>" /> <span><?= get_theme_mod('insomnia_logo_text', esc_html__( 'Insomnia', 'insomnia' )); ?></span>
+                <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php bloginfo( 'name' ); ?>" rel="home"><img src="<?php echo esc_url(get_theme_mod('insomnia_logo_upload', get_template_directory_uri() . '/assets/images/BadgeElephantOriginal.svg')); ?>" data-rjs="<?php echo esc_url(get_theme_mod('insomnia_retina_logo_upload',get_template_directory_uri() . '/assets/images/logo@2x.png')); ?>" class="logowhite" alt="<?php bloginfo( 'name' ) ?>" />
+                  <img src="<?php echo esc_url(get_theme_mod('insomnia_logo_dark_upload', get_template_directory_uri() . '/assets/images/BadgeElephantOriginal.svg')); ?>" data-rjs="<?php echo esc_url(get_theme_mod('insomnia_retina_logo_dark_upload',get_template_directory_uri() . '/assets/images/logo@2x.png')); ?>" class="logodark" alt="<?php bloginfo( 'name' ) ?>" /> <span><?php echo get_theme_mod('insomnia_logo_text', esc_html__( 'Insomnia', 'insomnia' )); ?></span>
                 </a>
               </div>
               <?php } else  { ?>
                 <?php if(get_theme_mod('insomnia_logo') == true) { ?>
-                  <div class="logo"><a href="<?= esc_url(home_url('/')); ?>"><?php echo get_theme_mod('insomnia_logo_text', esc_html__( 'Insomnia', 'insomnia' )); ?></a></div>
+                  <div class="logo"><a href="<?php echo esc_url(home_url('/')); ?>"><?php echo get_theme_mod('insomnia_logo_text', esc_html__( 'Insomnia', 'insomnia' )); ?></a></div>
                 <?php  } ?> 
             <?php } ?>`
             // creation de la balise liste
             const li = document.createElement('li');
             li.setAttribute('class', 'logo-pickle');
             const ul = document.querySelector('.navbar-nav');
-            ul.insertBefore(li, document.getElementById("menu-item-4166"));     
+            ul.insertBefore(li, document.getElementById("menu-item-4525"));     
             document.querySelector('.logo-pickle').innerHTML += logoSection;
-            const navMenu = document.querySelector('.desktop');
-            const logSpan = document.createElement("span")
-            const loginBtn = document.querySelector('.bp-login-nav');
-            const signUp = document.querySelector('.menu-item-4375');
-            logSpan.className = "logins-block"
-            navMenu.appendChild(logSpan);
-            logSpan.appendChild(loginBtn);
-            logSpan.appendChild(signUp);
     </script>
+	</div>
 	</div>
 <?php if(!is_search()) {?>
 <?php if(!is_front_page()) {?>
@@ -90,8 +75,10 @@
     <div class="tag_line forums">
       <?php } elseif (class_exists( 'WooCommerce' ) && is_woocommerce() ){?> 
     <div class="tag_line woo">
-      <?php } elseif(!is_page()) {?>
+      <?php } else {?>
     <div class="tag_line none">
+      <?php };?>
+
       <div class="tag-body">
         <div class="container">
             <div class="row">
@@ -112,9 +99,6 @@
         </div>
     </div>
   </div>
-  <?php } else {?>
-  <!-- Do nothing -->
-  <?php };?>
   <?php };?>
   <?php };?>
   <?php };?>
