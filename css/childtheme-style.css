@@ -41,6 +41,7 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
 }
 
 .learning {
+    overflow: hidden;
     background-color: #121237;
 }
 
