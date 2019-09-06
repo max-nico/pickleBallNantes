@@ -663,3 +663,4 @@ input[type="submit"]:hover {
 .activity-list .activity-item .activity-header .time-since{color:white;}
 .page-id-3716 .tag_line,.page-id-3749 .tag_line,.page-id-4340 .tag_line,.page-id-4168 .tag_line{display:none;}
 #loginform * + *{color:white;}
+.login-username input, .login-password input{color:rgb(9, 19, 39)!important;}
