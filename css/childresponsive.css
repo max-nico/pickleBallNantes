@@ -89,7 +89,7 @@ Extra small devices (portrait phones, less than 576px)
   .navbar-custom.top-nav-collapse{
    top: 0!important;
 }
-.grid.three>li, .grid.two>li{width:50% !important;}
+.grid.three>li, .grid.two>li{width:100% !important;}
    .burger_insomnia_menu_overlay_normal .burger_insomnia_main_menu a:hover,
    .burger_insomnia_menu_overlay_normal li.current-menu-item>a {
       border-bottom: 6px solid #74151C;
