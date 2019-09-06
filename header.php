@@ -62,7 +62,7 @@
             const ul = document.querySelector('.navbar-nav');
             ul.insertBefore(li, document.getElementById("menu-item-4525"));     
             document.querySelector('.logo-pickle').innerHTML += logoSection;
-            const navAccueil = document.querySelector('.home.menu-transparent .navbar.style1 .nav > li > a')
+            const navAccueil = document.querySelector('.navbar.style1 .nav > li > a')
             menuItemLink.forEach(element => {
               element.style.color ="#333";
             });
@@ -75,6 +75,7 @@
             desktop.appendChild(loginBlock)
             loginBlock.appendChild(menuItemInsc)
             loginBlock.appendChild(menuItemLogs)
+            if ()
     </script>
 	</div>
 	</div>
@@ -83,7 +84,7 @@
 <?php if(!is_404()) {?>
 <?php if(!is_single()) {?>
     <?php $post = get_post($id); $image = wp_get_attachment_image_src( get_post_thumbnail_id( $id ), 'wall-portfolio-squre'); ?> 
-      <?php if ( has_post_thumbnail() && is_page()) { ?> 
+      <?php if ( has_post_thumbnail() && is_page()) { ?>  
         <div class="tag_line tag_line_image" data-background="<?php echo esc_url($image[0]); ?>">
       <?php } elseif (class_exists( 'bbPress' ) && is_bbpress() ){?> 
     <div class="tag_line forums">
@@ -97,7 +98,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <?php if (is_page()){ ?>
+                    <?php if (is_page()){ "style='.main-content{margin-top:7em!important;}'" ?>
                         <h1 class="none"><?php the_title() ?></h1>
                     <?php } elseif (is_blog()) { if(is_archive()){ ?>
                         <h1 class="tag_line_title"><?php single_cat_title() ?></h1>
