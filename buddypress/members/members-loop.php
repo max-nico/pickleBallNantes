@@ -39,33 +39,33 @@ bp_nouveau_before_loop(); ?>
 								<?php $value = $value->data->value; ?>
 									<?php if ( $value ) : ?>
 										
-										<p class="item-details name col-md-4"><span class="item-details-title "><?php echo _e(' Prénom '); ?></span><?php echo $value; ?></p>
+										<p class="item-details name col-md-12"><span class="item-details-title "><?php echo _e(' Prénom '); ?></span><?php echo $value; ?></p>
 									<?php endif; ?>
 						<?php $value = xprofile_get_field( 532, bp_get_member_user_id(), true ); ?>
 						<?php $value = $value->data->value; ?>
 									<?php if ( $value ) : ?>
 									<span class="item-details-title "><?php echo _e(' Ville '); ?></span>
-										<p class="item-details ville col-md-4"><span class="item-details-title "><?php echo _e(' Ville '); ?></span> <?php echo $value; ?></p><!-- #item-details -->
+										<p class="item-details ville col-md-12"><span class="item-details-title "><?php echo _e(' Ville '); ?></span> <?php echo $value; ?></p><!-- #item-details -->
 									<?php endif; ?>
 						<?php $value = xprofile_get_field( 531, bp_get_member_user_id(), true ); ?>
 						<?php $value = $value->data->value; ?>
 									<?php if ( $value ) : ?>
-										<p class="item-details club col-md-4"><span class="item-details-title "><?php echo _e(' Club '); ?></span> <?php echo $value; ?></p><!-- #item-details -->
+										<p class="item-details club col-md-12"><span class="item-details-title "><?php echo _e(' Club '); ?></span> <?php echo $value; ?></p><!-- #item-details -->
 									<?php endif; ?>
 						<?php $value = xprofile_get_field( 533, bp_get_member_user_id(), true ); ?>
 						<?php $value = $value->data->value; ?>
 									<?php if ( $value ) : ?>
-										<p class="item-details pays col-md-4"><span class="item-details-title "><?php echo _e('Pays'); ?></span> <?php echo $value; ?></p><!-- #item-details -->
+										<p class="item-details pays col-md-12"><span class="item-details-title "><?php echo _e('Pays'); ?></span> <?php echo $value; ?></p><!-- #item-details -->
 									<?php endif; ?>
 						<?php $value = xprofile_get_field( 522, bp_get_member_user_id(), true ); ?>
 								<?php $value = $value->data->value; ?>
 									<?php if ( $value ) : ?>
-										<p class="item-details niveau-pickle col-md-4"><span class="item-details-title"><?php echo _e(' Niveau de Pickleball '); ?></span><?php echo $value; ?></p><!-- #item-details -->
+										<p class="item-details niveau-pickle col-md-12"><span class="item-details-title"><?php echo _e(' Niveau de Pickleball '); ?></span><?php echo $value; ?></p><!-- #item-details -->
 									<?php endif; ?>
 						<?php $value = xprofile_get_field( 542, bp_get_member_user_id(), true ); ?>
 								<?php $value = $value->data->value; ?>
 									<?php if ( $value ) : ?>
-										<p class="item-details raquette col-md-4"><span class="item-details-title"><?php echo _e('Marque ou raquette'); ?></span><?php echo $value; ?></p><!-- #item-details -->
+										<p class="item-details raquette col-md-12"><span class="item-details-title"><?php echo _e('Marque ou raquette'); ?></span><?php echo $value; ?></p><!-- #item-details -->
 									<?php endif; ?>
 						
 						
