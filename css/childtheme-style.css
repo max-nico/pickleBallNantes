@@ -647,3 +647,11 @@ input[type="submit"]:hover {
 .menu-sexe{
     margin-bottom: 12px;
 }
+.activity-list.bp-list .activity-item{
+    border:1px rgb(9, 19, 39) solid;
+}
+#buddypress #reply-title small a span, #buddypress a.bp-primary-action span{border:1px solid rgb(9, 19, 39);color:#74151C;}
+.activity-list .activity-item .activity-meta.action .button:before, .activity-list .activity-item .activity-meta.action .icons:before{    font-size: 24px;}
+.buddypress-wrap .bp-navs li.current a, .buddypress-wrap .bp-navs li.current a:focus, .buddypress-wrap .bp-navs li.current a:hover, .buddypress-wrap .bp-navs li.selected a, .buddypress-wrap .bp-navs li.selected a:focus, .buddypress-wrap .bp-navs li.selected a:hover{background: #74151C;border:1px solid white;}
+.buddypress-wrap .bp-navs li:not(.current) a:focus, .buddypress-wrap .bp-navs li:not(.current) a:hover, .buddypress-wrap .bp-navs li:not(.selected) a:focus, .buddypress-wrap .bp-navs li:not(.selected) a:hover{background: #74151C;color:white;}
+.activity-update-form #whats-new-submit input{width:16em;}
