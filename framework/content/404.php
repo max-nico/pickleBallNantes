@@ -22,7 +22,7 @@
         container.classList.add('container-fluid')
         
         </script>
-        <script src="../../sitepickleBallNantes/wp-content/themes/pickleball/assets/js/picklepong.min.js" type="module"></script>
+        <script src="../../sitepickleBallNantes/wp-content/themes/pickleball/assets/js/picklepong.js" type="module"></script>
 
         <style>
             .content-wrap {
