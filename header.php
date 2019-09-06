@@ -42,6 +42,7 @@
 <!-- TODO: Gesetion de l'emplace ment du logo  -->
     <script type="text/javascript">
       let menuItem = document.querySelectorAll('.collapse #menu-main-menu .nav-item');
+      let menuItemLink = document.querySelectorAll('.collapse #menu-main-menu .nav-item .has-submenu');
       //les logo par wordpress copier depuis style1.php
       let logoSection = 
         `<?php if(get_theme_mod('insomnia_logo_image', 'enable') == true)  { ?>
@@ -61,6 +62,19 @@
             const ul = document.querySelector('.navbar-nav');
             ul.insertBefore(li, document.getElementById("menu-item-4525"));     
             document.querySelector('.logo-pickle').innerHTML += logoSection;
+            const navAccueil = document.querySelector('.home.menu-transparent .navbar.style1 .nav > li > a')
+            menuItemLink.forEach(element => {
+              element.style.color ="#333";
+            });
+
+            const loginBlock = document.createElement('div')
+            const desktop = document.querySelector('.desktop')
+            const menuItemLogs = document.querySelector('.bp-login-nav')
+            loginBlock.classList.add('logins-block')
+            desktop.appendChild(loginBlock)
+            loginBlock.appendChild(menuItemLogs)
+
+
     </script>
 	</div>
 	</div>

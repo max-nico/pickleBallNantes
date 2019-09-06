@@ -71,7 +71,7 @@ html, body{
     width: 100%;
 }
 #main-page{
-    margin-top:30px;
+    margin-top:0;
 }
 .main-content .container .row{margin-top:85px;}
 .header{
@@ -89,14 +89,14 @@ html, body{
     left: -10000px;
 }
 
-#canvas{
-    margin-top: 3em; 
-    border: 1px solid green;
+#canvas {
+    z-index: 1;
+    background : url(./assets/images/terrain.png) no-repeat;
     width: 100%;
-    height: 100%;
-    /* background: url('/terrain.jpg') no-repeat; */
+    height: 95%;
     background-size: cover;
 }
+
 #bbpress-forums li.bbp-header {
     background: #ef172f !important;
 }
@@ -126,7 +126,7 @@ text-align: center;
 }
 .last-post-block{padding-bottom:35px;}
 .stats-top .stats-number,.stats-block .stats-text{padding-top:0px !important;font-size: 14px !important;font-family: "MERRIWEATHERSANS-REGULAR";}
-.pe-7s-like:before,.pe-7s-world:before,.pe-7s-like2:before,.pe-7s-stopwatch:before{font-size:70px;}
+.pe-7s-like:before,.pe-7s-world:before,.pe-7s-like2:before,.pe-7s-stopwatch:before{font-size:30px;}
 .post-text-acceuil{color:white;}
 
 /*TODO: pages pickleball nico 19 20/07/2019 */
@@ -208,10 +208,92 @@ legend{border-bottom: none;}
 #buddypress .comment-reply-link, #buddypress .generic-button a, #buddypress a.button, #buddypress button, #buddypress input[type=button], #buddypress input[type=reset], #buddypress input[type=submit], #buddypress ul.button-nav li a, a.bp-title-button{
 border-radius: 15px; border: 1px solid rgb(9, 19, 39); }
 #cff .cff-item{width:90% !important;}
-.stats-insomnia{width:50%;float:left;margin: 45px 0px 25px 0px;}
 /*/////////////////////////////////
 SIDEBAR
 /////////////////////////////////*/
 .soc-footer li a{color:rgb(9, 19, 39)!important;}
 .soc-footer li a:hover{background: #74151c; opacity:0.7;transition: 0.9s;color:white!important;padding:5px;border-radius:15px;}
 
+#canvas{
+    width: 100%;
+    height: 100%;
+    background: url('./assets/images/terrain404.png') no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+#scorep1 {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    z-index: 1;
+    text-align: center;
+    font-family: 'CA'
+}
+
+#scorep2 {
+    position: absolute;
+    top: 1%;
+    left: 95%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    z-index: 1;
+    font-family: 'CA';
+    text-align: center;
+    color:white;
+}
+
+.icones {
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    z-index: 1;
+    transform: translate(-50%, -100%)
+}
+
+.icones a {
+    font-size: 3em;
+    color: white;
+    border: 2px solid white;
+    max-height: 70px;
+    max-width: 70px;
+    padding: 0 12px;
+    display: inline-block;
+    border-radius: 5em;
+    margin: 0 12px; 
+}
+
+#_404ToHome {
+    background: orange;
+}
+#_404ToForum {
+    background: #17B4EF;
+}
+.infoStart {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000096;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.infoStart > p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-family: "MERRIWEATHERSANS-EXTRABOLD";
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    opacity: .6;
+}
+
+.win {
+    font-family: "CA";
+    position: absolute;
+    font-size: 4em;
+}
