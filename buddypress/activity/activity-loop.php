@@ -11,7 +11,6 @@ bp_nouveau_before_loop(); ?>
 
 	<?php if ( empty( $_POST['page'] ) || 1 === (int) $_POST['page'] ) : ?>
 		<ul class="activity-list item-list bp-list">
-		<div>HELLO</div>
 	<?php endif; ?>
 
 	<?php

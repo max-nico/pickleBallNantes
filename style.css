@@ -71,7 +71,7 @@ html, body{
     width: 100%;
 }
 #main-page{
-    margin-top:30px;
+    margin-top:0;
 }
 .main-content .container .row{margin-top:85px;}
 .header{

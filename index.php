@@ -1,9 +1,8 @@
-<?php // Template Name: Blog ?>
 <?php get_header(); $layout_value_index = get_theme_mod( 'insomnia_post_type' ); ?>
     <?php if ($layout_value_index == 'tiles' || $layout_value_index == 'minimal' ){ ?>
-        <div class="">
+        <div class="container-fluid content-wrap">
     <?php } else { ?>
-        <div class="container-fluid">
+        <div class="container-fluid content-wrap">
     <?php } ?>
             <div class="row">
         <?php if(get_theme_mod( 'insomnia_slider_sticky') == true) : ?>
@@ -36,4 +35,3 @@
         </div>                
     </div>
 <?php get_footer(); ?>
-
