@@ -648,8 +648,6 @@ input[type="submit"]:hover {
 .menu-sexe{
     margin-bottom: 12px;
 }
-<<<<<<< HEAD
-=======
 .activity-list.bp-list .activity-item{
     border:1px rgb(9, 19, 39) solid;
 }
@@ -664,4 +662,3 @@ input[type="submit"]:hover {
 .activity-list.bp-list .activity-item{background: rgb(9, 19, 39,0,1);}
 .buddypress-wrap .activity-comments .acomment-content{border-left: 1px solid #091327;border-bottom: 1px solid #091327;}
 .activity-list .activity-item .activity-header .time-since{color:white;}
->>>>>>> cd90126bea999b543967a95f783f5a9d489a5430
