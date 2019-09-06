@@ -1,11 +1,11 @@
 <?php // Template Name: Blog ?>
 <?php get_header(); $layout_value_index = get_theme_mod( 'insomnia_post_type' ); ?>
     <?php if ($layout_value_index == 'tiles' || $layout_value_index == 'minimal' ){ ?>
-        <div class="content-wrap">
+        <div class="">
     <?php } else { ?>
-        <div class="content-wrap">
+        <div class="">
     <?php } ?>
-            <div class="row">
+            <div class="">
         <?php if(get_theme_mod( 'insomnia_slider_sticky') == true) : ?>
             <div class="col-lg-12 col-md-12 col col-sm-12 col-xs-12">
                 <?php get_template_part( 'framework/content/slider');?>

@@ -14,11 +14,11 @@
 								<div class="footer-area2 col-lg-12">
 									<div class="title-footer2 col-lg-12">PICKLEBALL NANTES</div>
 									<div class="links-footer col-lg-12">
-										<a href="<?php echo get_permalink(3664); ?>"><div class="link-footer col-lg-3">Ou pratiquer ?
+										<a href="<?php echo get_permalink(4530); ?>"><div class="link-footer col-lg-3">Cookies
 										</div></a>
 										<a href="#"><div class="link-footer col-lg-3">Plan du site
 										</div></a>
-										<a href="https://maximemartin.pro/404"><div class="link-footer col-lg-3">PLAY
+										<a href="<?php echo get_permalink(404); ?>"><div class="link-footer col-lg-3">PicklePong
 										</div></a>
 										<a href="<?php echo get_permalink(3667); ?>"><div class="link-footer col-lg-3">Mentions légales
 										</div></a>
