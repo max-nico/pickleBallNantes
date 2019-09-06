@@ -67,21 +67,18 @@
               element.style.color ="#333";
             });
 
-            const loginBlock = document.createElement('div')
-            const desktop = document.querySelector('.desktop')
-            const menuItemLogs = document.querySelector('.bp-login-nav')
-            const menuItemInsc = document.querySelector('.menu-item-4375')
-            loginBlock.classList.add('logins-block')
-            desktop.appendChild(loginBlock)
-            loginBlock.appendChild(menuItemInsc)
-            loginBlock.appendChild(menuItemLogs)
+            <?php if ( !is_user_logged_in() ) : ?>
+              const loginBlock = document.createElement('div')
+              const desktop = document.querySelector('.desktop')
+              const menuItemLogs = document.querySelector('.bp-login-nav')
+              const menuItemInsc = document.querySelector('.menu-item-4375')
+              loginBlock.classList.add('logins-block')
+              desktop.appendChild(loginBlock)
+              loginBlock.appendChild(menuItemInsc)
+              loginBlock.appendChild(menuItemLogs)
+            <?php else: ?>
+            <?php endif; ?>
     </script>
-    <?php if ( is_user_logged_in() ) : ?>
-    <script type="text/javascript">
-      const loginB = document.querySelector('.logins-block')
-      loginB.style.display = "none";
-    </script>
-    <?php endif; ?>
 	</div>
 </div>
 <?php if(!is_search()) {?>

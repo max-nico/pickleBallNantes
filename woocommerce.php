@@ -13,7 +13,7 @@
         <div class="row">
             <?php $layout_value = get_theme_mod( 'insomnia_woo_sidebars', 'sidebar-no' ); ?>
              <?php if ($layout_value == 'sidebar-left'): ?>
-                <div class="col-lg-9 col-md-9 col col-sm-12 sidebar-left">
+                <div class="col-lg-9 col-md-9 col col-sm-12">
                     <?php woocommerce_content(); ?>
                 </div>
                     <?php get_template_part( 'woocommerce/sidebar');?>
@@ -30,19 +30,20 @@
         </div>                
     </div>
 
-    <!--script-- type="text/javascript">
+    <script type="text/javascript">
     const categories = document.querySelectorAll('.product-category')
     const products = document.querySelectorAll('.type-product')
     categories.forEach(element => {
         element.classList.remove('col-md-4')
-        element.className += " col-lg-12 col-md-12 col-sm-6 text-center"
+        element.className += " col-lg-5 col-md-5 col-sm-6 text-center"
     });
-    products.forEach(el => {
+    produitsProposed.forEach(el => {
         el.classList.remove('col-md-4')
         el.classList.remove('col-sm-3')
-        el.className += " col-lg-12 col-md-12 col-sm-6 text-center"
+        el.className += " col-lg-3 col-md-4 col-sm-6 text-center"
+
     });
 
-</!--script-->
+</script>
 
 <?php get_footer(); ?>
