@@ -1,4 +1,16 @@
+let infoToStart = document.createElement('div')
+document.body.appendChild(infoToStart)
+infoToStart.classList.add('infoStart')
+infoToStart.innerHTML = `<p>Cliquer pour jouer !</p>`
+document.innerHTML += `<p class="win">player</p>`
+
 const canvas = document.getElementById('canvas')
+let scorep1 = document.getElementById('scorep1')
+let scorep2 = document.getElementById('scorep2')
+let p1 = 0
+let p2 = 0
+let countClick = 0
+
 
 const FPS = 60;
 let dt = 0.9;
@@ -7,7 +19,7 @@ let set = false;
 
 let dpi = window.devicePixelRatio;
 //fix pixelated element
-    function fix_dpi() {
+function fix_dpi() {
     //get CSS height
     //the + prefix casts it to an integer
     //the slice method gets rid of "px"
@@ -22,7 +34,6 @@ let dpi = window.devicePixelRatio;
 
 fix_dpi()
 
-
 let colors = {
     red: '#EF172F',
     blue: '#121237',
@@ -36,7 +47,7 @@ let sizes = {
         height: 200
     },
     ball: {
-        radius: 40
+        radius: 50
     }
 }
 
@@ -59,7 +70,7 @@ let velocity = {
 }
 
 if (canvas.getContext) {
-    const context = canvas.getContext('2d')    
+    const context = canvas.getContext('2d')
 
     class Player {
         constructor(color, x, y, width, height) {
@@ -75,25 +86,6 @@ if (canvas.getContext) {
         }
     }
 
-    class Ball {
-        constructor(x, y, radius, startAngle, endAngle, anticlockwise, color) {
-            this.anticlockwise = anticlockwise;
-            this.x = x;
-            this.y = y;
-            this.radius = radius;
-            this.startAngle = startAngle;
-            this.endAngle = endAngle;
-            this.color = color;
-
-        }
-        drawCircle() {
-            context.beginPath();
-            context.arc(this.x, this.y, this.radius, this.startAngle, this.endAngle, this.anticlockwise);
-            context.fillStyle=this.color;
-            context.stroke();
-        }
-    }
-
     class Image {
         constructor(image, x, y, width, height) {
             this.image = image
@@ -106,48 +98,72 @@ if (canvas.getContext) {
             context.drawImage(this.image, this.x, this.y, this.width, this.height);
         }
     }
-    
+
     const ballImg = document.getElementById('ball')
     const ball = new Image(ballImg, position.ball.x, position.ball.y, sizes.ball.radius, sizes.ball.radius)
-    
+
     const playerOne = new Player(colors.red,
         0,
-        canvas.height/ 2 - sizes.player.height / 2,
+        canvas.height / 2 - sizes.player.height / 2,
         sizes.player.width,
         sizes.player.height)
+    playerOne: {
+        win: false
+    }
 
     const playerTwo = new Player(colors.blue,
         canvas.width - sizes.player.width,
         canvas.height / 2 - sizes.player.height / 2,
         sizes.player.width,
         sizes.player.height)
+    playerTwo: {
+        win: false
+    }
 
-        let resetSet = ()=>{
-            ball.x = ball.x < 0 ? playerTwo.x - playerTwo.width : playerOne.x + playerOne.width / 2
-            ball.y = ball.x < 0 ? playerTwo.y + playerTwo.height / 2 : playerOne.y + playerOne.height / 2
-            dt = 0.9
-            set = false
+    let resetSet = () => {
+        ball.x = ball.x < 0 ? playerTwo.x - playerTwo.width : playerOne.x + playerOne.width / 2
+        ball.y = ball.x < 0 ? playerTwo.y + playerTwo.height / 2 : playerOne.y + playerOne.height / 2
+        dt = 0.9
+        set = false
+        if (!set) {
+            setTimeout(() => {
+                playerTwo.y = Math.random() * canvas.height
+            }, 1000);
         }
+    }
 
     // TODO: make the next one in initialize function
 
     let ballMove = () => {
+        let collide = false
         if (ball.x < playerOne.x + playerOne.width / 2 && (ball.y >= playerOne.y && ball.y <= playerOne.y + playerOne.height)) {
             velocity.ball.vx *= -1
+            collide = true
         }
         if (ball.x > playerTwo.x - playerTwo.width / 2 && (ball.y >= playerTwo.y && ball.y <= playerTwo.y + playerTwo.height)) {
             velocity.ball.vx *= -1
+            collide = true
         }
-        if(ball.y < 0 || ball.y > canvas.height) {
+        if (ball.y < 0 || ball.y > canvas.height) {
             velocity.ball.vy *= -1
         }
         
+        if (collide) {
+            if (ball.x < playerOne.x + playerOne.width / 2 ) {
+                velocity.ball.vx = -Math.floor(Math.random() * 10)
+                if (velocity.ball.vx > -3) velocity.ball.vx = -3
+            } 
+            if (ball.x > playerTwo.x - playerTwo.width / 2) {
+                velocity.ball.vx = Math.floor(Math.random() * 10)
+                if (velocity.ball.vx < 3) velocity.ball.vx = 3
+            }
+        }
+
         setInterval(() => {
             dt += 0.01
-            console.log(dt);
         }, 5000);
 
-        if (dt > 4) {
+        if (dt > 3) {
             dt = 3
         }
 
@@ -156,21 +172,35 @@ if (canvas.getContext) {
     }
 
     let upDateGame = () => {
-        let speedPlayerTwo = 0.5
-        document.onclick = (e) =>{
-            set = true
+        let speedPlayerTwo = 1
+        document.onclick = (e) => {
+            countClick++
+            if (countClick > 1){
+                set = true
+            } else {
+                setTimeout(() => {
+                    infoToStart.style.display = "none"
+                    set = true
+                }, 2000);
+            }
         }
+
         document.onmousemove = (e) => {
             playerOne.y = e.clientY
-            console.log(playerOne.y);
         }
-        if (set) playerTwo.y = ball.y * speedPlayerTwo
+
         if (playerOne.y <= 0) {
             playerOne.y = 0
-        } else if (playerOne.y > canvas.height - sizes.player.height) {
+        }
+
+        if (playerOne.y > canvas.height - sizes.player.height) {
             playerOne.y = canvas.height - sizes.player.height
             speedPlayerTwo = Math.random() * 1
+            console.log(speedPlayerTwo);
         }
+        
+        if (set) playerTwo.y = ball.y * speedPlayerTwo * 0.6
+
         if (playerTwo.y <= 0) {
             playerTwo.y = 0
         } else if (playerTwo.y > canvas.height - sizes.player.height) {
@@ -178,20 +208,41 @@ if (canvas.getContext) {
         }
         match()
     }
-
+    
     let match = () => {
-        if (ball.x < -40 ||ball.x > canvas.width + 40) {
+        
+        if (ball.x < -40) {
+            playerTwo.win = true
+            p2++
+            resetSet()
+        }
+        if (ball.x > canvas.width + 40) {
+            playerOne.win = true
+            p1++
             resetSet()
         }
     }
-
+    
+    let win = (point) => {
+        if (p1 === point) {
+        } 
+    }
     let game = () => {
         context.clearRect(0, 0, canvas.width, canvas.height);
         ball.draw()
         playerOne.draw()
         playerTwo.draw()
-        if(set)ballMove()
-        if (!set && ball.x == playerOne.x + playerOne.width / 2) ball.y = playerOne.y
+        scorep1.innerHTML = p1
+        scorep2.innerHTML = p2
+        if (!set && playerOne.win) {
+            ball.y = playerOne.y + (playerOne.height / 2 - ball.height / 2)
+            ball.x = playerOne.x + ball.width / 2 + ball.width / 2
+        }
+        if (!set && playerTwo.win) {
+            ball.y = playerTwo.y + (playerTwo.height / 2 - ball.height / 2)
+            ball.x = playerTwo.x + ball.width / 2 - ball.width - ball.width / 2
+        }
+        if (set) ballMove()
     }
 
     setInterval(() => {

@@ -262,3 +262,29 @@ SIDEBAR
 #_404ToForum {
     background: #17B4EF;
 }
+.infoStart {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000096;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.infoStart > p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-family: "MERRIWEATHERSANS-EXTRABOLD";
+    text-align: center;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    opacity: .6;
+}
+
+.win {
+    font-family: "CA";
+    position: absolute;
+    font-size: 4em;
+}
