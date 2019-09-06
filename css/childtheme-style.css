@@ -345,7 +345,6 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
     padding: 45px 0 35px 0;
     background: rgb(9, 19, 39);
     border-bottom: 1px solid rgb(9, 19, 39);
-    display:none;
 }
 
 .buddypress .wrapper .tag_line {
