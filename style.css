@@ -149,7 +149,7 @@ text-align: center;
     background: rgba(9,19,39);
     padding: 25px;
     border-radius: 16px;
-    margin-bottom:35px;
+    margin-bottom:35px !important;
 }
 .subway-login-form__actions h3{
     margin:auto;

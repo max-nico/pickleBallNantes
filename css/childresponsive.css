@@ -205,6 +205,7 @@ Extra small devices (portrait phones, less than 576px)
    input[type="submit"] {
       width: 50%;
    }
+   #video-block-pickle{display:none;}
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
