@@ -345,6 +345,7 @@ ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
     padding: 45px 0 35px 0;
     background: rgb(9, 19, 39);
     border-bottom: 1px solid rgb(9, 19, 39);
+    display:none;
 }
 
 .buddypress .wrapper .tag_line {
@@ -650,8 +651,14 @@ input[type="submit"]:hover {
 .activity-list.bp-list .activity-item{
     border:1px rgb(9, 19, 39) solid;
 }
-#buddypress #reply-title small a span, #buddypress a.bp-primary-action span{border:1px solid rgb(9, 19, 39);color:#74151C;}
+#buddypress #reply-title small a span, #buddypress a.bp-primary-action span{border:1px solid rgb(9, 19, 39);color:white;}
 .activity-list .activity-item .activity-meta.action .button:before, .activity-list .activity-item .activity-meta.action .icons:before{    font-size: 24px;}
 .buddypress-wrap .bp-navs li.current a, .buddypress-wrap .bp-navs li.current a:focus, .buddypress-wrap .bp-navs li.current a:hover, .buddypress-wrap .bp-navs li.selected a, .buddypress-wrap .bp-navs li.selected a:focus, .buddypress-wrap .bp-navs li.selected a:hover{background: #74151C;border:1px solid white;}
 .buddypress-wrap .bp-navs li:not(.current) a:focus, .buddypress-wrap .bp-navs li:not(.current) a:hover, .buddypress-wrap .bp-navs li:not(.selected) a:focus, .buddypress-wrap .bp-navs li:not(.selected) a:hover{background: #74151C;color:white;}
 .activity-update-form #whats-new-submit input{width:16em;}
+#buddypress .comment-reply-link, #buddypress .generic-button a, #buddypress a.button, #buddypress button, #buddypress input[type=button], #buddypress input[type=reset], #buddypress input[type=submit], #buddypress ul.button-nav li a, a.bp-title-button{font-size: 15px;color:white;background: rgb(9, 19, 39);}
+.buddypress .buddypress-wrap .activity-read-more a:focus, .buddypress .buddypress-wrap .activity-read-more a:hover, .buddypress .buddypress-wrap .button-nav li a:focus, .buddypress .buddypress-wrap .button-nav li a:hover, .buddypress .buddypress-wrap .button-nav li.current a, .buddypress .buddypress-wrap .comment-reply-link:focus, .buddypress .buddypress-wrap .comment-reply-link:hover, .buddypress .buddypress-wrap .generic-button a:focus, .buddypress .buddypress-wrap .generic-button a:hover, .buddypress .buddypress-wrap a.button:focus, .buddypress .buddypress-wrap a.button:hover, .buddypress .buddypress-wrap button:focus, .buddypress .buddypress-wrap button:hover, .buddypress .buddypress-wrap input[type=button]:focus, .buddypress .buddypress-wrap input[type=button]:hover, .buddypress .buddypress-wrap input[type=reset]:focus, .buddypress .buddypress-wrap input[type=reset]:hover, .buddypress .buddypress-wrap input[type=submit]:focus, .buddypress .buddypress-wrap input[type=submit]:hover{background: #74151C;border:1px rgb(9, 19, 39)solid;}
+.buddypress-wrap .activity-comments .acomment-content p, .buddypress-wrap .activity-comments .acomment-meta{font-size: 20px;}
+.activity-list.bp-list .activity-item{background: rgb(9, 19, 39,0,1);}
+.buddypress-wrap .activity-comments .acomment-content{border-left: 1px solid #091327;border-bottom: 1px solid #091327;}
+.activity-list .activity-item .activity-header .time-since{color:white;}
