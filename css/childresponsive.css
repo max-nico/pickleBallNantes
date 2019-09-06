@@ -279,6 +279,7 @@ Extra small devices (portrait phones, less than 576px)
    .block-learning {
       margin-top: 22%;
    }
-   #bbpress-forums li{font-size: 8px;}
+   #bbpress-forums li{font-size: 8px !important;}
    .bbp-author-name{font-family:'Merriweather' !important;}
+   .bbp-topic-permalink{font-size: 10px !important;}
 }
