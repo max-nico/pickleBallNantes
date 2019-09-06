@@ -1,5 +1,5 @@
 let infoToStart = document.createElement('div')
-document.body.appendChild(infoToStart)
+document.querySelector('.page-404').appendChild(infoToStart)
 infoToStart.classList.add('infoStart')
 infoToStart.innerHTML = `<p>Cliquer pour jouer !</p>`
 document.innerHTML += `<p class="win">player</p>`
