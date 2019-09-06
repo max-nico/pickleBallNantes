@@ -210,6 +210,7 @@ Extra small devices (portrait phones, less than 576px)
    .img-bk-forums img{display:none;}
    .bkimg-forums-header{padding:0!important;}
    .txt-forums-header p a{width:80%;}
+   
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -278,4 +279,5 @@ Extra small devices (portrait phones, less than 576px)
    .block-learning {
       margin-top: 22%;
    }
+   #bbpress-forums li{font-size: 8px;}
 }
