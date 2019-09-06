@@ -75,7 +75,6 @@
             desktop.appendChild(loginBlock)
             loginBlock.appendChild(menuItemInsc)
             loginBlock.appendChild(menuItemLogs)
-            if (!menuItemLogs) { loginBlock.style.display = "none"}
     </script>
 	</div>
 	</div>
