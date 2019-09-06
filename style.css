@@ -202,9 +202,9 @@ legend{border-bottom: none;}
 .item-details-title{font-size: 12px;font-style: italic;}
 .buddypress-wrap .grid.bp-list>li .action{position:relative !important;}
 .buddypress-wrap .grid.bp-list>li .list-wrap{border-radius:70px !important;}
-#buddypress ul.item-list li{border-bottom: none;padding: 5px 15px !important;}
+#buddypress ul.item-list li{border-bottom: none !important;padding: 5px 15px !important;}
 .grid.three>li, .grid.two>li{width:33% !important;}
-.buddypress-wrap .grid.bp-list>li .item-avatar img.avatar,.grid>li .list-wrap{border:1px solid rgb(9, 19, 39);}
+.buddypress-wrap .grid.bp-list>li .item-avatar img.avatar,.grid>li .list-wrap{border:1px solid rgb(9, 19, 39);background: rgb(9, 19, 39,0.1)}
 /*/////////////////////////////////
 SIDEBAR
 /////////////////////////////////*/
