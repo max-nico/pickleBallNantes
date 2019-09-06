@@ -73,8 +73,6 @@
             loginBlock.classList.add('logins-block')
             desktop.appendChild(loginBlock)
             loginBlock.appendChild(menuItemLogs)
-
-
     </script>
 	</div>
 	</div>
