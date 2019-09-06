@@ -98,9 +98,9 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <?php if (is_page()){ ?>
-                        <h4 class="tag_line_title"><?php the_title() ?></h4>
+                        <h1 class="none"><?php the_title() ?></h1>
                     <?php } elseif (is_blog()) { if(is_archive()){ ?>
-                        <h4 class="tag_line_title"><?php single_cat_title() ?></h4>
+                        <h1 class="tag_line_title"><?php single_cat_title() ?></h1>
                     <?php } else {
                         $blog_page_id = get_option('page_for_posts');
                         echo '<h4 class="tag_line_title">'.get_page($blog_page_id)->post_title.'</h4>';};
