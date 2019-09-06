@@ -76,8 +76,14 @@
             loginBlock.appendChild(menuItemInsc)
             loginBlock.appendChild(menuItemLogs)
     </script>
+    <?php if ( is_user_logged_in() ) : ?>
+    <script type="text/javascript">
+      const loginB = document.querySelector('.logins-block')
+      loginB.style.display = "none";
+    </script>
+    <?php endif; ?>
 	</div>
-	</div>
+</div>
 <?php if(!is_search()) {?>
 <?php if(!is_front_page()) {?>
 <?php if(!is_404()) {?>
