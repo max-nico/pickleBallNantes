@@ -70,8 +70,10 @@
             const loginBlock = document.createElement('div')
             const desktop = document.querySelector('.desktop')
             const menuItemLogs = document.querySelector('.bp-login-nav')
+            const menuItemInsc = document.querySelector('.menu-item-4375')
             loginBlock.classList.add('logins-block')
             desktop.appendChild(loginBlock)
+            loginBlock.appendChild(menuItemInsc)
             loginBlock.appendChild(menuItemLogs)
     </script>
 	</div>
