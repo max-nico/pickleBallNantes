@@ -60,7 +60,6 @@ bp_nouveau_before_loop(); ?>
 						<?php $value = xprofile_get_field( 522, bp_get_member_user_id(), true ); ?>
 								<?php $value = $value->data->value; ?>
 									<?php if ( $value ) : ?>
-									<span class="item-details-title col-md-4"><?php echo _e('Niveau de Pickleball'); ?></span>
 										<p class="item-details niveau-pickle col-md-4"><span class="item-details-title"><?php echo _e(' Niveau de Pickleball '); ?></span><?php echo $value; ?></p><!-- #item-details -->
 									<?php endif; ?>
 						<?php $value = xprofile_get_field( 542, bp_get_member_user_id(), true ); ?>
