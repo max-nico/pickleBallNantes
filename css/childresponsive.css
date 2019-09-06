@@ -208,7 +208,8 @@ Extra small devices (portrait phones, less than 576px)
    #video-block-pickle{display:none;}
    #pickle-academy div #bp_core_members_widget-2 #members-list{display:initial !important;}
    .img-bk-forums{min-height: 560px;}
-   .img-bk-forums img{clip-path: none;position: absolute; bottom:0;}
+   .img-bk-forums img{clip-path: none;position: absolute; bottom:0;z-index: -1;}
+   .bkimg-forums-header{padding:0!important;}
    .txt-forums-header p a{width:50%;}
 }
 
