@@ -98,7 +98,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <?php if (is_page()){ ?>
-                        <h1 class="none"><?php the_title() ?></h1>
+                        <h1 class="tag_line_title"><?php the_title() ?></h1>
                     <?php } elseif (is_blog()) { if(is_archive()){ ?>
                         <h1 class="tag_line_title"><?php single_cat_title() ?></h1>
                     <?php } else {
