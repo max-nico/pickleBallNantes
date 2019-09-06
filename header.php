@@ -62,7 +62,7 @@
             const ul = document.querySelector('.navbar-nav');
             ul.insertBefore(li, document.getElementById("menu-item-4525"));     
             document.querySelector('.logo-pickle').innerHTML += logoSection;
-            const navAccueil = document.querySelector('.home.menu-transparent .navbar.style1 .nav > li > a')
+            const navAccueil = document.querySelector('.navbar.style1 .nav > li > a')
             menuItemLink.forEach(element => {
               element.style.color ="#333";
             });
@@ -76,14 +76,20 @@
             loginBlock.appendChild(menuItemInsc)
             loginBlock.appendChild(menuItemLogs)
     </script>
+    <?php if ( is_user_logged_in() ) : ?>
+    <script type="text/javascript">
+      const loginB = document.querySelector('.logins-block')
+      loginB.style.display = "none";
+    </script>
+    <?php endif; ?>
 	</div>
-	</div>
+</div>
 <?php if(!is_search()) {?>
 <?php if(!is_front_page()) {?>
 <?php if(!is_404()) {?>
 <?php if(!is_single()) {?>
     <?php $post = get_post($id); $image = wp_get_attachment_image_src( get_post_thumbnail_id( $id ), 'wall-portfolio-squre'); ?> 
-      <?php if ( has_post_thumbnail() && is_page()) { ?> 
+      <?php if ( has_post_thumbnail() && is_page()) { ?>  
         <div class="tag_line tag_line_image" data-background="<?php echo esc_url($image[0]); ?>">
       <?php } elseif (class_exists( 'bbPress' ) && is_bbpress() ){?> 
     <div class="tag_line forums">
