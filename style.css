@@ -199,6 +199,8 @@ BUDDYPRESS
 legend{border-bottom: none;}
 .img-register{text-align: center;}
 .img-register img{width:30%;}
+.item-details-title{font-size: 12px;font-style: italic;}
+.buddypress-wrap .grid.bp-list>li .action{position:relative !important;}
 /*/////////////////////////////////
 SIDEBAR
 /////////////////////////////////*/
