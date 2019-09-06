@@ -206,6 +206,7 @@ Extra small devices (portrait phones, less than 576px)
       width: 50%;
    }
    #video-block-pickle{display:none;}
+   #pickle-academy div #bp_core_members_widget-2 #members-list{display:initial !important;}
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
