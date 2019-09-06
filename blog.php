@@ -3,9 +3,9 @@
     <?php if ($layout_value_index == 'tiles' || $layout_value_index == 'minimal' ){ ?>
         <div class="">
     <?php } else { ?>
-        <div class="">
+        <div class="container-fluid">
     <?php } ?>
-            <div class="">
+            <div class="row">
         <?php if(get_theme_mod( 'insomnia_slider_sticky') == true) : ?>
             <div class="col-lg-12 col-md-12 col col-sm-12 col-xs-12">
                 <?php get_template_part( 'framework/content/slider');?>
