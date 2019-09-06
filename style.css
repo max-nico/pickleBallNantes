@@ -205,6 +205,8 @@ legend{border-bottom: none;}
 #buddypress ul.item-list li{border-bottom: none !important;padding: 5px 15px !important;}
 .grid.three>li, .grid.two>li{width:33% !important;}
 .buddypress-wrap .grid.bp-list>li .item-avatar img.avatar,.grid>li .list-wrap{border:1px solid rgb(9, 19, 39);background: rgb(9, 19, 39,0.1)}
+#buddypress .comment-reply-link, #buddypress .generic-button a, #buddypress a.button, #buddypress button, #buddypress input[type=button], #buddypress input[type=reset], #buddypress input[type=submit], #buddypress ul.button-nav li a, a.bp-title-button{
+border-radius: 15px; border: 1px solid rgb(9, 19, 39); }
 /*/////////////////////////////////
 SIDEBAR
 /////////////////////////////////*/
