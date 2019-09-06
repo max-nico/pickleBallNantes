@@ -661,6 +661,6 @@ input[type="submit"]:hover {
 .activity-list.bp-list .activity-item{background: rgb(9, 19, 39,0,1);}
 .buddypress-wrap .activity-comments .acomment-content{border-left: 1px solid #091327;border-bottom: 1px solid #091327;}
 .activity-list .activity-item .activity-header .time-since{color:white;}
-.page-id-3716 .tag_line,.page-id-3749 .tag_line,.page-id-4340 .tag_line,.page-id-4168 .tag_line{display:none;}
+.page-id-3716 .tag_line,.page-id-3749 .tag_line,.page-id-4340 .tag_line,.page-id-4168 .tag_line,.post-type-archive-product .tag_line.woo{display:none;}
 #loginform * + *{color:white;}
 .login-username input, .login-password input{color:rgb(9, 19, 39)!important;}
