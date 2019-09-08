@@ -567,6 +567,8 @@ input[type="submit"]:hover {
 }
 
 .insomnia_single_image {
+    min-height: 300px;
+    max-height: 300px;
     height: 100%;
     width: 100%;
 }
