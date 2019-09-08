@@ -9,7 +9,7 @@
     <div class="field-learning">
         <h2><?= $value['le_titre']; ?></h2>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper append-2-slides prepend-2-slides append-slide prepend-slide">
                     <?php for ($i=0; $i <= 4; $i++) : ?>
                         <?php if(!empty($value["video_$i" ])) : ?>
                             <div class="swiper-slide"><?= $value["video_$i" ]; ?></div>

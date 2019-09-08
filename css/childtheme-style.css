@@ -9,6 +9,10 @@
 }
 
 
+.tag_line_none .navbar.style1 {
+    background: #ffffff00!important;
+}
+
 .navbar-custom.top-nav-collapse{
     background-color: #ffffff00;
 }
@@ -19,15 +23,15 @@
 }
 
 .menu-item-white>a {
-    color: #fff;
+    color: #fff!important;
 }
 
 .menu-item-white>a:hover {
     color: #dddddd;
 }
 
-ul#menu-main-menu>.current-menu-ancestor.menu-item-white>a {
-    color: #dddddd;
+.current-menu-parent>a {
+    color: #cac9c9;
 }
 
 .top-nav-collapse-transparent {
