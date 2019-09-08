@@ -111,7 +111,6 @@ if ( 0 === $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 
 <script type="text/javascript">
 document.querySelectorAll('.insomnia_product-details-container .insomnia_product-title a').forEach(element => {
-    console.log(element.text);
     if (element.textContent.length > 15) {
         element.style.fontSize = ".8em";
         element.style.width  = "124.05px";
@@ -119,6 +118,6 @@ document.querySelectorAll('.insomnia_product-details-container .insomnia_product
 });
 document.querySelectorAll('.product').forEach(element => {
     element.classList.remove('col-md-3');
-    element.classList.add('col-md-4');
+    element[0].classList.add('col-md-12');
 });
 </script>
